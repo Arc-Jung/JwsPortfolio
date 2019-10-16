@@ -3,9 +3,10 @@
 
 Travel Web Project 여행 정보 웹 프로젝트
 -------------
+사용 기술 : 스프링 프레임워크 / 이클립스 / Github / Ubuntu Server 14.04 LTS
+클라우드 컴퓨팅 : AWS EC2 t2.micro / AWS RDS Oracle Enterprise Edition / AWS S3 Bucket
 
 - 제 3회 백석대학교 산학협력단 링크플러스 지능형 소프트웨어 성과발표회 우수상 수상
-
 - 설계 목적 설정 : 학부내에서 팀프로젝트를 진행하여 팀원 전체의 실력 향상을 목표로 작성함.
 - 구현 방법 결정 : 서버와 데이터베이스는 아마존 웹 서비스를 이용하여 클라우드 환경에서 개발하도록 함. 사용될 언어와 프레임워크 자바의 스프링 프레임워크를 사용하기로 함.
 - 프로젝트에서의 나의 역할 : 아마존 RDS, EC2 , S3 서버 구축 및 DB 설계 및 쿼리문 작성과 S3 버켓의 파일 업로드 부분의 백엔드단 작성. 스프링 프레임워크와 AWS RDS, EC2, S3 를 이용하여 B2C형태 웹 프로젝트를 개발하여 제 3회 지능형 소프트웨어 성과발표회 우수상 수상.
@@ -22,7 +23,13 @@ EC2와 RDS와 데이터모델링을 통하여 팀원들이 프로젝트에 전�
 ( 링크 : https://gitlab.com/No1_Korean_Developer/portpolio )
 - AWS Cloudwatch를 이용하여 요금 발생시 대처 할 수 있도록 대비함. 또한 모든 서버 로그는 S3 스토리지에 자동으로 저장함.
 
-Data Seience Project 데이터 사이언스
+Django Framework Project 장고 프레임워크 프로젝트
+-------------
+사용 기술 : Kotlin 1.3.31 / Django 2.2 LTS / Python 3.7 / JSON / Ubuntu Server 16.04 LTS
+클라우드 컴퓨팅 : AWS RDS Oracle Enterprise Edition / AWS EC2 t2.micro / AWS S3 Bucket / AWS CloudWatch / AWS Cloud9 IDE
+개발 중
+
+Data Seience Project 데이터 사이언스 프로젝트
 -------------
 - 네이버 뉴스 웹 크롤링
 - 크롬 웹 드라이버를 사용한 웹 크롤링
@@ -31,7 +38,7 @@ Data Seience Project 데이터 사이언스
 - 의료기관 병상 및 의료인 분석
 - 의료데이터 분석을 통한 심장 질환 유발률 비지도학습(unsupervised learning)과 군집(clustering)
 
-Embedded Software DI-6200V Project 대화기기 임베디드 소프트웨어 DI-6200V
+Embedded Software DI-6200V Project 대화기기 임베디드 소프트웨어 DI-6200V 프로젝트
 ------------- 
 - 임베디드 기반의 의약품 주입펌프의 폰트시스템 및 UI와 터치 시스템, DAC 구현 및 QA 화이트박스 테스트를 진행
 - (주)대화기기 기업 부설연구소내에서 연구원들과 프로젝트를 진행함.
@@ -50,3 +57,9 @@ Embedded Software DI-6200V Project 대화기기 임베디드 소프트웨어 DI-
 
 GF Consultant Freelance Projects 지에프컨설턴트 프리랜서 프로젝트
 ------------- 
+사용 기술 : 
+작성 중
+
+Database Modeling 데이터베이스 모델링
+------------- 
+작성 중
