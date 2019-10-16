@@ -1,9 +1,10 @@
-포트폴리오 설명 문서
+<center>포트폴리오 문서</center>  
 ==========================
 
 Travel Web Project 여행 정보 웹 프로젝트
 -------------
-- 용 기술 : 스프링 프레임워크 / 이클립스 / Github / Ubuntu Server 14.04 LTS
+- 접속주소 : http://18.221.37.6:8080/TravelProject/project/index.do
+- Tchnology stack : 스프링 프레임워크 / 이클립스 / Github / Ubuntu Server 14.04 LTS
 - 클라우드 컴퓨팅 : AWS EC2 t2.micro / AWS RDS Oracle Enterprise Edition / AWS S3 Bucket
 
 - 제 3회 백석대학교 산학협력단 링크플러스 지능형 소프트웨어 성과발표회 우수상 수상
@@ -19,18 +20,18 @@ AWS 프리티어를 극한으로 이용하기 위해 EC2 위에 DBMS를 설치�
 EC2와 RDS와 데이터모델링을 통하여 팀원들이 프로젝트에 전념 할 수 있도록 함.
 - 완성된 프로젝트는 프리티어 기간인 365일간 무료이며 365일 24시간 항상 접속이 가능함.
 ( 링크 : http://18.221.37.6:8080/TravelProject/project/index.do )
-- 모든 소스코드는 Gitlab에 공개.
-( 링크 : https://gitlab.com/No1_Korean_Developer/portpolio )
+- 모든 소스코드는 Github 공개.
 - AWS Cloudwatch를 이용하여 요금 발생시 대처 할 수 있도록 대비함. 또한 모든 서버 로그는 S3 스토리지에 자동으로 저장함.
 
 Django Framework Project 장고 프레임워크 프로젝트
 -------------
-사용 기술 : Kotlin 1.3.31 / Django 2.2 LTS / Python 3.7 / JSON / Ubuntu Server 16.04 LTS
-클라우드 컴퓨팅 : AWS RDS Oracle Enterprise Edition / AWS EC2 t2.micro / AWS S3 Bucket / AWS CloudWatch / AWS Cloud9 IDE
-개발 중
+- Tchnology stack : Kotlin 1.3.31 / Django 2.2 LTS / Python 3.7 / JSON / Ubuntu Server 16.04 LTS
+- 클라우드 컴퓨팅 : AWS RDS Oracle Enterprise Edition / AWS EC2 t2.micro / AWS S3 Bucket / AWS CloudWatch / AWS Cloud9 IDE
+- 개발 중
 
 Data Seience Project 데이터 사이언스 프로젝트
 -------------
+- Tchnology stack : 
 - 네이버 뉴스 웹 크롤링
 - 크롬 웹 드라이버를 사용한 웹 크롤링
 - 부동산 데이터와 공시가격의 상관관계 분석
@@ -53,13 +54,24 @@ Embedded Software DI-6200V Project 대화기기 임베디드 소프트웨어 DI-
 - 중환자에게 쓰이는 장비로 오차와 버그 발생시 환자에 치명적인 위험을 불러 일으킬 수 있음을 알고 개발에 참여.
 - 하드웨어 설계팀과 디자이너팀과의 협업이 개발과정에서 얼마나 중요한지 알게된 계기가 되었습니다.
 ( 제품 링크 : http://www.daiwha.com/bbs/board.php?bo_table=sub1_8&wr_id=14 )
-- (주)대화기기의 에서의 작성한 임베디드 기반의 의약품 주입펌프 DI-6200V의 소스코드는 (주)대화기기가 저작권을 가지고 있기 떄문에 Public Git에 올릴 수 없는 점 양해부탁드립니다.
+- (주)대화기기의 에서의 작성한 임베디드 기반의 의약품 주입펌프 DI-6200V의 코드는 (주)대화기기가 저작권을 가지고 있기 떄문에 Public Git에 올릴 수 없는 점 양해부탁드립니다.
 
 GF Consultant Freelance Projects 지에프컨설턴트 프리랜서 프로젝트
 ------------- 
-- 사용 기술 : 
+- Tchnology stack : 
 - 작성 중
 
 Database Modeling 데이터베이스 모델링
 ------------- 
+- Tchnology stack : ERDCLOUD
 - 작성 중
+
+Database Modeling 데이터베이스 모델링
+------------- 
+- Tchnology stack : 
+- 작성 중
+
+Apply Automate Project 잡플래닛 / 사람인 연동을 통한 자동 지원 프로젝트
+------------- 
+- Tchnology stack : 
+- 개발설계 진행 중
