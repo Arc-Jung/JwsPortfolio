@@ -35,5 +35,5 @@ Embedded Software DI-6200V Project 대화기기 임베디드 소프트웨어 DI-
 ------------- 
 (주)대화기기의 에서의 작성한 임베디드 기반의 의약품 주입펌프 DI-6200V의 소스코드는 (주)대화기기가 저작권을 가지고 있기 떄문에 Public Git에 올릴 수 없는 점 양해부탁드립니다.
 
-GF Consultant Freelance Projects
+GF Consultant Freelance Projects 지에프컨설턴트 프리랜서 프로젝트
 ------------- 
