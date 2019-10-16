@@ -1,0 +1,41 @@
+#-*- coding: utf-8 -*- 
+# 한글을 사용하면 위에 꼭 써야함
+#상대방에게 API로 데이터를 제공하기 위해 JSON, XML과 같이 범용적으로 사용되는 데이터 포맷으로 바꿔 줄 필요가 있다.
+#serializer는 django의 models 객체나 querysets 데이터를 그러한 JSON 포맷으로 변환하는 역할을 한다.
+from rest_framework import serializers
+from .models import UserModel, ProductModel, LikeModel, SaleModel, UserImageModel, ProImageModel, ImageModel
+
+class UserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = UserModel
+        fields = ('UserId', 'Password', 'UserName', 'Phone', 'KakaoId', 'Email')
+
+class ProductSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ProductModel
+        fields = ('ProductId', 'ProductName', 'ProductCategory', 'ProductPrice', 'ProductText', 'ProductDate', 'ProductType', 'UserId')
+        
+class LikeSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = LikeModel
+        fields = ('Like','UserId', 'ProductId')
+        
+class SaleSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = SaleModel
+        fields = ('Saleid', 'SaleDate', 'ProductId')
+
+class UserImageSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = UserImageModel
+        fields = ('UserId', 'Imageid')
+
+class ProImageSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ProImageModel
+        fields = ('ImageId', 'ProductId')
+
+class ImageSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ImageModel
+        fields = ('ImageId', 'ImageName', 'ImageSize', 'ImageSize', 'ImageLink')
