@@ -3,8 +3,8 @@
 
 Travel Web Project 여행 정보 웹 프로젝트
 -------------
-사용 기술 : 스프링 프레임워크 / 이클립스 / Github / Ubuntu Server 14.04 LTS
-클라우드 컴퓨팅 : AWS EC2 t2.micro / AWS RDS Oracle Enterprise Edition / AWS S3 Bucket
+- 용 기술 : 스프링 프레임워크 / 이클립스 / Github / Ubuntu Server 14.04 LTS
+- 클라우드 컴퓨팅 : AWS EC2 t2.micro / AWS RDS Oracle Enterprise Edition / AWS S3 Bucket
 
 - 제 3회 백석대학교 산학협력단 링크플러스 지능형 소프트웨어 성과발표회 우수상 수상
 - 설계 목적 설정 : 학부내에서 팀프로젝트를 진행하여 팀원 전체의 실력 향상을 목표로 작성함.
@@ -57,9 +57,9 @@ Embedded Software DI-6200V Project 대화기기 임베디드 소프트웨어 DI-
 
 GF Consultant Freelance Projects 지에프컨설턴트 프리랜서 프로젝트
 ------------- 
-사용 기술 : 
-작성 중
+- 사용 기술 : 
+- 작성 중
 
 Database Modeling 데이터베이스 모델링
 ------------- 
-작성 중
+- 작성 중
