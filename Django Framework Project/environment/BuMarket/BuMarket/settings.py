@@ -87,7 +87,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.oracle',
         'NAME': 'LINKPLUS',  # 데이터베이스 이름
         'USER': 'bumarket',    # 오라클 사용자 계정
-        'PASSWORD': '00003531',  # 오라클 패스워드드
+        'PASSWORD': '********',  # 오라클 패스워드드
         'HOST': 'jws.cc5v8olvshdu.us-east-2.rds.amazonaws.com',
         'PORT': "1521"
     }
