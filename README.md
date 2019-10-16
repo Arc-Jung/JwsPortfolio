@@ -1,9 +1,11 @@
-<center>포트폴리오 문서==========================</center>  
+포트폴리오 문서
+==========================
+
 
 Travel Web Project 여행 정보 웹 프로젝트
 -------------
 - 접속주소 : http://18.221.37.6:8080/TravelProject/project/index.do
-- Tchnology stack : 스프링 프레임워크 / 이클립스 / Github / Ubuntu Server 14.04 LTS
+- Technology stack : 스프링 프레임워크 / 이클립스 / Github / Ubuntu Server 14.04 LTS
 - 클라우드 컴퓨팅 : AWS EC2 t2.micro / AWS RDS Oracle Enterprise Edition / AWS S3 Bucket
 
 - 제 3회 백석대학교 산학협력단 링크플러스 지능형 소프트웨어 성과발표회 우수상 수상
@@ -18,19 +20,18 @@ AWS 프리티어를 극한으로 이용하기 위해 EC2 위에 DBMS를 설치�
 - 초기설계 단계에서 팀원의 능력과 기술 스택에 맞게 프로젝트를 분배함
 EC2와 RDS와 데이터모델링을 통하여 팀원들이 프로젝트에 전념 할 수 있도록 함.
 - 완성된 프로젝트는 프리티어 기간인 365일간 무료이며 365일 24시간 항상 접속이 가능함.
-( 링크 : http://18.221.37.6:8080/TravelProject/project/index.do )
 - 모든 소스코드는 Github 공개.
 - AWS Cloudwatch를 이용하여 요금 발생시 대처 할 수 있도록 대비함. 또한 모든 서버 로그는 S3 스토리지에 자동으로 저장함.
 
 Django Framework Project 장고 프레임워크 프로젝트
 -------------
-- Tchnology stack : Kotlin 1.3.31 / Django 2.2 LTS / Python 3.7 / JSON / Ubuntu Server 16.04 LTS
+- Technology stack : Kotlin 1.3.31 / Django 2.2 LTS / Python 3.7 / JSON / Ubuntu Server 16.04 LTS
 - 클라우드 컴퓨팅 : AWS RDS Oracle Enterprise Edition / AWS EC2 t2.micro / AWS S3 Bucket / AWS CloudWatch / AWS Cloud9 IDE
-- 개발 중
+- 개발 중.
 
 Data Seience Project 데이터 사이언스 프로젝트
 -------------
-- Tchnology stack : 
+- Technology stack :
 - 네이버 뉴스 웹 크롤링
 - 크롬 웹 드라이버를 사용한 웹 크롤링
 - 부동산 데이터와 공시가격의 상관관계 분석
@@ -40,9 +41,9 @@ Data Seience Project 데이터 사이언스 프로젝트
 
 Embedded Software DI-6200V Project 대화기기 임베디드 소프트웨어 DI-6200V 프로젝트
 ------------- 
-- 임베디드 기반의 의약품 주입펌프의 폰트시스템 및 UI와 터치 시스템, DAC 구현 및 QA 화이트박스 테스트를 진행
+- 임베디드 기반의 의약품 주입펌프의 폰트시스템 및 UI와 터치 시스템, DAC 구현 및 QA 화이트박스 테스트를 진행.
 - (주)대화기기 기업 부설연구소내에서 연구원들과 프로젝트를 진행함.
-- ARM Cortex-M4 기반의 C언어 기반의 임베디드 펌웨어
+- ARM Cortex-M4 기반의 C언어 기반의 임베디드 펌웨어.
 - 운영체제가 없는 144mhz 싱글코어 CPU와 2048kb의 메모리와 16MB 플래시메모리의 시스템에서의 개발을 진행함.
 - EU 의료기기 납품기준에 따르면 무전원 상태에서도 작동이 가능하여야 함으로 저전력으로 구성해야함으로 터치방식의 GUI 프로젝트를 운영체제 없이 개발이 진행됨.
 - 이미지 용량과 폰트용량을 줄이기 위해 모든 UI를 매우 작은 단위로 조각내어 사용.
@@ -57,20 +58,20 @@ Embedded Software DI-6200V Project 대화기기 임베디드 소프트웨어 DI-
 
 GF Consultant Freelance Projects 지에프컨설턴트 프리랜서 프로젝트
 ------------- 
-- Tchnology stack : 
-- 작성 중
+- Technology stack :
+- 작성 중.
 
 Database Modeling 데이터베이스 모델링
 ------------- 
-- Tchnology stack : ERDCLOUD
-- 작성 중
+- Technology stack : ERDCLOUD
+- 작성 중.
 
 Database Modeling 데이터베이스 모델링
 ------------- 
-- Tchnology stack : 
-- 작성 중
+- Technology stack :
+- 작성 중.
 
 Apply Automate Project 잡플래닛 / 사람인 연동을 통한 자동 지원 프로젝트
 ------------- 
-- Tchnology stack : 
-- 개발설계 진행 중
+- Technology stack :
+- 개발설계 진행 중.
