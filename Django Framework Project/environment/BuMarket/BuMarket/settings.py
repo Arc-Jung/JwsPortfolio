@@ -30,7 +30,6 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
-    'BuMarket.app.ApiConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -40,8 +39,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'django_filters',
     'rest_framework_swagger',
-    
     'drf_yasg',
+    'apptest',
+    'BuMarket',
 ]
 
 REST_FRAMEWORK = {
@@ -85,14 +85,13 @@ WSGI_APPLICATION = 'BuMarket.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.oracle',
-        'NAME': 'LINKPLUS',  # 데이터베이스 이름
+        'NAME': 'BUMARKET',  # 데이터베이스 이름
         'USER': 'bumarket',    # 오라클 사용자 계정
-        'PASSWORD': '********',  # 오라클 패스워드드
-        'HOST': 'jws.cc5v8olvshdu.us-east-2.rds.amazonaws.com',
+        'PASSWORD': '00003531',  # 오라클 패스워드
+        'HOST': 'bumarket.cc5v8olvshdu.us-east-2.rds.amazonaws.com', #엔드포인트
         'PORT': "1521"
     }
 }
-print("database connect")
 
 # Password validation
 # https://docs.djangoproject.com/en/1.10/ref/settings/#auth-password-validators
@@ -142,4 +141,3 @@ LOGGING = {
         },
     },
 }
-

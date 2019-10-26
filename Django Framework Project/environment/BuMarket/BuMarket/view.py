@@ -4,24 +4,23 @@ from django.core.exceptions import ObjectDoesNotExist, MultipleObjectsReturned
 from rest_framework import filters
 from rest_framework import viewsets
 from rest_framework import permissions
-#from rest_framework.decorators import detail_route
 from rest_framework.response import Response
 from .forms import UserJoinForm
+
+from django.db import models
 from .models import UserModel, ProductModel, SaleModel, LikeModel # Model import
-from .serializers import UserSerializer, ProductSerializer
+from BuMarket.serializers import UserSerializer, ProductSerializer
 from django.http import JsonResponse
 from django.http import HttpResponse
-import logging
-logger = logging.getLogger('test')
 from django.contrib.auth import login, authenticate #20191002
 from django.http import HttpResponse #20191004
-from rest_framework.permissions import AllowAny
-from rest_framework.response import Response
-from rest_framework.schemas import SchemaGenerator
-from rest_framework.views import APIView
-from rest_framework_swagger import renderers
-from rest_framework import status
-from rest_framework.response import Response
+import logging
+logger = logging.getLogger('testlog')
+#from rest_framework.permissions import AllowAny
+#from rest_framework.response import Response
+#from rest_framework.schemas import SchemaGenerator
+
+#from rest_framework import status
 ####################################################################
 
 
@@ -94,7 +93,8 @@ class LoginViewSet(viewsets.ModelViewSet):
         pw = request.POST['pw'] # 안드로이드에서 POST 방식으로 발송
         usercheck = UserModel.objects.get(UserId=id, Password=pw) 
         # 유저모델 -> 데이터베이스 -> 오브젝트 -> Get -> UserId의 값을 id 에, Password의 값을 pw에 저장한다.
-        # usercheck = authenticate(UserId=id, Password=pw) # 데이터 베이스의 컬럼값과 포스트로 보내진 데이터를 비교
+        # usercheck = authenticate(UserId=id, Password=pw) 
+        # 데이터 베이스의 컬럼값과 포스트로 보내진 데이터를 비교
         if (usercheck != ''): # 데이터베이스가 값을 성공적으로 불러왔다면 로그인 성공
             result['id'] = UserModel.UserId
             result['pw'] = UserModel.Password
@@ -199,7 +199,7 @@ class TestViewSet(viewsets.ModelViewSet):
             'items' : ['파이썬', '장고', 'AWS', 'EC2'],
         }, json_dumps_params = {'ensure_ascii': True})
         
-    def testDatabaseDef(requestPId): # Get : :8000/database?requestPId=1
+    def testDatabaseDef(self, requestPId): # Get : :8000/database?requestPId=1
         requestData=requestPId.GET.get("requestPId");
         result = {} # 장고가 JSON 데이터를 담아서 보낼 배열
         queryset = ProductModel.objects.all()
@@ -232,7 +232,6 @@ def testProductDef(request):
             'message' : '상품페이지',
             'items' : 'A상품',
         }, json_dumps_params = {'ensure_ascii': True})
-    
-        
-        
+
+
 ####################################################################
