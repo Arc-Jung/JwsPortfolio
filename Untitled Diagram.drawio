@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-04T14:44:06.287Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="BxmwMZQV8FwBB5mQVyGm" version="12.2.0" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-04T14:47:51.325Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="j2XrzD5Pjnz5fAoB8oTJ" version="12.2.0" type="github" pages="1">
   <diagram id="LUJSZPQED57f7l-aZOMd" name="Page-1">
     <mxGraphModel dx="1209" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,9 +22,6 @@
         <mxCell id="87D7TpQ12_bu92wkKHwp-12" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
           <mxGeometry x="30" y="140" width="78" height="78" as="geometry"/>
         </mxCell>
-        <mxCell id="87D7TpQ12_bu92wkKHwp-13" value="EC2 instance contents" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_ec2_instance_contents;strokeColor=#D86613;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#D86613;dashed=0;" vertex="1" parent="1">
-          <mxGeometry x="440" y="40" width="361" height="240" as="geometry"/>
-        </mxCell>
         <mxCell id="87D7TpQ12_bu92wkKHwp-14" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.user;fillColor=#D2D3D3;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="10" y="317.5" width="57" height="80" as="geometry"/>
         </mxCell>
@@ -37,8 +34,14 @@
         <mxCell id="87D7TpQ12_bu92wkKHwp-19" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="166" y="113.5" width="76.5" height="93" as="geometry"/>
         </mxCell>
-        <mxCell id="87D7TpQ12_bu92wkKHwp-24" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.auto_scaling;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="600" y="200" width="79.5" height="76.5" as="geometry"/>
+        <mxCell id="87D7TpQ12_bu92wkKHwp-25" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_flash_auto_48px-128.png" vertex="1" parent="1">
+          <mxGeometry x="10" y="600" width="128" height="128" as="geometry"/>
+        </mxCell>
+        <mxCell id="87D7TpQ12_bu92wkKHwp-28" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.auto_scaling2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="239.5" width="78" height="78" as="geometry"/>
+        </mxCell>
+        <mxCell id="87D7TpQ12_bu92wkKHwp-30" value="User 1" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[1,1,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;absoluteArcSize=1;arcSize=2;html=1;strokeColor=none;gradientColor=none;shadow=0;dashed=0;fontSize=12;fontColor=#9E9E9E;align=left;verticalAlign=top;spacing=10;spacingTop=-4;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="10" y="760" width="120" height="70" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
