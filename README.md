@@ -3,10 +3,13 @@
 
 Travel Web Project 여행 정보 웹 프로젝트
 -------------------------------------------------------------------------------------------
-<img src="https://github.com/dsg890789/JwsPortfolio/blob/master/Travel%20Web%20Project/Travel%20index.png?raw=true">
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Travel%20Web%20Project/Travel%20index%20small.png">
+
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Travel%20Web%20Project/Travel%20DB.png">
 
 > 접속 링크 : http://18.221.37.6:8080/TravelProject/project/index.do
+
+> 데이터베이스 설계도 링크 : https://www.erdcloud.com/d/WHzXSXHaNTFHu7rbc
 
     Technology stack : Java / Spring Framework / Ubuntu Server / 
 
@@ -15,10 +18,11 @@ Travel Web Project 여행 정보 웹 프로젝트
 - 설계 목적 설정 : 학부내에서 팀프로젝트를 진행하여 팀원 전체의 실력 향상을 목표로 개발하였습니다.
 - 모든 서버 로그는 S3 스토리지에 자동으로 저장하도록 하였다.
 - ERD CLOUD 를 이용하여 데이터베이스를 한눈에 보기 편하게 설계를 하여 팀원들의 데이터베이스 이해도를 향상토록 하며 데이터베이스의 수정하기 전 ERD 클라우드에 미리 적용을 하여 백엔드를 구성하는 팀원의 혼선을 최소화 하도록 노력하였습니다.
-> 데이터베이스 설계도 링크 : https://www.erdcloud.com/d/WHzXSXHaNTFHu7rbc
 
 Django Framework Project 장고 프레임워크 프로젝트
 ------------------------------------------------------------------------------------------
+
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/REST%20API.png">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/BuMarket%20AWS%20Architecture.png">
 
     Technology stack : Kotlin / Django / Python / JSON / Ubuntu Server
@@ -67,4 +71,4 @@ GF Consultant Freelance Projects 지에프컨설턴트 사회보장정보원 유
 
 메가존클라우드 구글 클라우드 아키텍쳐 전문가 양성 프로그램
 ------------------------------------------------------------------------------------------ 
-20191106 추가.
+- 20191106 추가.
