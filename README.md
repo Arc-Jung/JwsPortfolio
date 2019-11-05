@@ -3,6 +3,7 @@
 
 Travel Web Project 여행 정보 웹 프로젝트
 -------------------------------------------------------------------------------------------
+<img src="https://github.com/dsg890789/JwsPortfolio/blob/master/Travel%20Web%20Project/Travel%20index.png?raw=true">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Travel%20Web%20Project/Travel%20DB.png">
 
 > 접속 링크 : http://18.221.37.6:8080/TravelProject/project/index.do
@@ -45,6 +46,8 @@ Data Seience Project 데이터 사이언스 학습
 
 Embedded Software DI-6200V Project 대화기기 임베디드 소프트웨어 DI-6200V 프로젝트
 ------------------------------------------------------------------------------------------ 
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Embedded%20Software%20DI-6200V%20Project/DI-6200V_2.png">
+
     C Language / Firmware / ARM
 - 임베디드 기반의 의약품 주입펌프의 폰트시스템 및 UI와 터치 시스템 전반을 당담하였습니다.
 - (주)대화기기 기업 부설연구소내에서 연구원들과 프로젝트를 진행하였습니다.
