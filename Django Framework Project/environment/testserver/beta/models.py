@@ -17,7 +17,7 @@ class UserModel(models.Model):
         return self.UserId
         
 class ProductModel(models.Model):
-    ProductId = models.CharField(primary_key=True,max_length=20)
+    ProductId = models.AutoField(primary_key=True, max_length=20)
     ProductName = models.CharField(max_length=50)
     ProductCategory = models.CharField(max_length=20)
     ProductPrice = models.CharField(max_length=20)
@@ -30,7 +30,7 @@ class ProductModel(models.Model):
         return self.ProductId
 
 class LikeModel(models.Model):
-    Like = models.AutoField(primary_key=True)
+    Like = models.AutoField(primary_key=True, max_length=20)
     UserId = models.ForeignKey(UserModel, on_delete = models.CASCADE) # 외래키 설정 이미지를 삭제 했을 때 연관 항목을 어떻게 할지 설정하는 옵션 : 자동 삭제로 설정
     ProductId = models.ForeignKey(ProductModel, on_delete = models.CASCADE) # 외래키 설정 이미지를 삭제 했을 때 연관 항목을 어떻게 할지 설정하는 옵션 : 자동 삭제로 설정
     
@@ -55,7 +55,7 @@ class ImageModel(models.Model):
         return self.ImageName
     
 class UserImageModel(models.Model):
-    UserImageModelId = models.AutoField(primary_key=True)
+    UserImageModelId = models.AutoField(primary_key=True, max_length=20)
     UserId = models.ForeignKey(UserModel, on_delete = models.CASCADE) # 외래키 설정 이미지를 삭제 했을 때 연관 항목을 어떻게 할지 설정하는 옵션 : 자동 삭제로 설정
     ImageId = models.ForeignKey(ImageModel, on_delete = models.CASCADE) # 외래키 설정 이미지를 삭제 했을 때 연관 항목을 어떻게 할지 설정하는 옵션 : 자동 삭제로 설정
     
@@ -63,7 +63,7 @@ class UserImageModel(models.Model):
         return self.UserId
     
 class ProImageModel(models.Model):
-    ProImageModelId = models.AutoField(primary_key=True)
+    ProImageModelId = models.AutoField(primary_key=True, max_length=20)
     ImageId = models.ForeignKey(ImageModel, on_delete = models.CASCADE) # 외래키 설정 이미지를 삭제 했을 때 연관 항목을 어떻게 할지 설정하는 옵션 : 자동 삭제로 설정
     ProductId = models.ForeignKey(ProductModel, on_delete = models.CASCADE) # 외래키 설정 이미지를 삭제 했을 때 연관 항목을 어떻게 할지 설정하는 옵션 : 자동 삭제로 설정
     

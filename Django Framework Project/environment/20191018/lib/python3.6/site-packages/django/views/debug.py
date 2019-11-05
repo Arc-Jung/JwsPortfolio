@@ -269,7 +269,7 @@ class ExceptionReporter:
                     v = pprint(v)
                     # Trim large blobs of data
                     if len(v) > 4096:
-                        v = '%s... <trimmed %d bytes string>' % (v[0:4096], len(v))
+                        v = '%s… <trimmed %d bytes string>' % (v[0:4096], len(v))
                     frame_vars.append((k, v))
                 frame['vars'] = frame_vars
             frames[i] = frame
@@ -369,7 +369,7 @@ class ExceptionReporter:
             encoding = 'ascii'
             for line in source[:2]:
                 # File coding may be specified. Match pattern from PEP-263
-                # (http://www.python.org/dev/peps/pep-0263/)
+                # (https://www.python.org/dev/peps/pep-0263/)
                 match = re.search(br'coding[:=]\s*([-\w.]+)', line)
                 if match:
                     encoding = match.group(1).decode('ascii')

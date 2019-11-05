@@ -8,8 +8,8 @@ from rest_framework.response import Response
 import json
 
 from django.db import models
-from .models import UserModel, ProductModel, SaleModel, LikeModel # Model import
-from .serializers import UserSerializer, ProductSerializer
+from .models import UserModel, ProductModel, SaleModel, LikeModel, SaleModel, ImageModel, UserImageModel, ProImageModel # Model import
+from .serializers import UserSerializer, ProductSerializer, LikeSerializer, SaleSerializer, ImageSerializer, UserImageSerializer, ProImageSerializer # Serializer import
 from django.http import JsonResponse
 from django.http import HttpResponse
 from django.contrib.auth import login, authenticate #20191002
@@ -82,24 +82,29 @@ def loginUser(request):
 
 @csrf_exempt # CSRF 쿠키 보안 해제
 def createProduct(request): 
-    serializer_class = ProductSerializer # ('ProductId', 'ProductName', 'ProductCategory', 'ProductPrice', 'ProductDate', 'ProductDate', 'ProductText', 'ProductType','UserId')
+    serializer_class = ProductSerializer # ('ProductId', 'ProductName', 'ProductCategory', 'ProductPrice', 'ProductDate', 'ProductText', 'ProductType','UserId')
     
     if request.method == "POST":
         JsonData = json.loads(request.body.decode('utf-8'))
-        #ProductIdJson = JsonData[0]["ProductId"] AUTO
+        ProductIdJson = JsonData[0]["ProductId"]
         ProductNameJson = JsonData[0]["ProductName"]
         ProductCategoryJson = JsonData[0]["ProductCategory"]
         ProductPriceJson = JsonData[0]["ProductPrice"]
-        #ProductDateJson = JsonData[0]["ProductDate"] AUTO
+        ProductDateJson = JsonData[0]["ProductDate"]
         ProductTextJson = JsonData[0]["ProductText"]
         ProductTypeJson = JsonData[0]["ProductType"]
-        UserIdJson = JsonData[0]["UserId"]
+        UserId = JsonData[0]["UserId"]
         try:
-            queryset = UserModel.objects.create(ProductName=ProductNameJson, ProductCategory=ProductCategoryJson, ProductPrice=ProductPriceJson, ProductText=ProductTextJson, ProductType=ProductTypeJson, UserId=UserIdJson)
+            #queryset = ProductModel.objects.create(ProductId=ProductIdJson, ProductName=ProductNameJson, ProductCategory=ProductCategoryJson, ProductPrice=ProductPriceJson, ProductDate=ProductDateJson, ProductText=ProductTextJson, ProductType=ProductTypeJson)
+            #queryset = ProductModel.objects.create(ProductId, ProductName, ProductCategory, ProductPrice, ProductDate, ProductText, ProductType,UserId)
+            queryset = ProductModel.objects.create(ProductId, ProductName=ProductNameJson, ProductCategory=ProductCategoryJson, ProductPrice=ProductPriceJson, ProductDate=ProductDateJson, ProductText=ProductTextJson, ProductType=ProductTypeJson,UserId=UserModel.objects.get(UserId='0020'))
             JsonResult = JsonData
-            return HttpResponse(JsonResult)
+            return HttpResponse("성공!")
         except Exception:
-            JsonResult = 'SQL문에 오류가 존재합니다.'
-            return HttpResponse(JsonResult)
+            JsonResult = JsonData + JsonData
+            return HttpResponse(UserId)
     else:
         return HttpResponse('json 데이터가 존재하지 않거나 POST 방식이 아닙니다.')
+        
+####################################################################
+

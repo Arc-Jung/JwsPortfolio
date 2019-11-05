@@ -13,7 +13,7 @@ class UserSerializer(serializers.ModelSerializer):
 class ProductSerializer(serializers.ModelSerializer):
     class Meta:
         model = ProductModel
-        fields = ('ProductId', 'ProductName', 'ProductCategory', 'ProductPrice', 'ProductDate', 'ProductDate', 'ProductText', 'ProductType','UserId')
+        fields = ('ProductId', 'ProductName', 'ProductCategory', 'ProductPrice', 'ProductDate', 'ProductText', 'ProductType', 'UserId')
         
 class LikeSerializer(serializers.ModelSerializer):
     class Meta:

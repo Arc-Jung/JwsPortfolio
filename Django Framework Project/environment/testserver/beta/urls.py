@@ -6,6 +6,7 @@ from . import views
 
 urlpatterns = [
     url(r'user', views.user, name='user'),
+    url(r'product', views.createProduct, name='product'),
     ]
     
     # 숫자로 이루어진 question_id를 매개변수로 저장해서 views.py에 넘긴다

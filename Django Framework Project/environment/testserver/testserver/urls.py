@@ -20,7 +20,7 @@ from django.conf.urls import url, include
 
 
 urlpatterns = [
+    url(r'^restapi/', include('restapi.urls')),
     url(r'^admin/', admin.site.urls),
-    url(r'^protype/', include('protype.urls')),
-    url(r'^beta/', include('beta.urls')),
+    url(r'^bumarket/', include('bumarket.urls')),
 ]
