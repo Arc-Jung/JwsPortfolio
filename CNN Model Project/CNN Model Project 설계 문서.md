@@ -4,10 +4,6 @@ CNN 알고리즘을 이용한 동물 사진 분류 프로젝트
 -------------------------------------------------------------------------------------------
  - CNN 알고리즘을 통하여 S3 버켓에 들어있는 특정 동물 사진의 동물 사진을 AI를 통하여 분류하는 API를 개발한다.
 
-2. 프로젝트 설계도
--------------------------------------------------------------------------------------------
-<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/CNN%20Model%20Project/CNN%20Model%20Project%20%EC%84%A4%EA%B3%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.png">
-
 2. CNN 알고리즘
 -------------------------------------------------------------------------------------------
  - CNN(Convolutional Neural Network) image 전체를 보는 것이 아니라 부분을 보는 것이 핵심 아이디어이다. 부분에 해당하는 것을 filter 이고 이러한 filter를 여러번 적용 시켜 하나의 레이어 형태로 만들게 되는데 이것을 convolution layer 라고 한다. 예를 들어 6개의 filter로부터 6개의 convolution layer를 얻었다고 해보자. 현재 우리의 예에서는 N=7, F=3 이기 때문에 5x5짜리 convolution layer를 6개 얻게 되었다. 이를 하나로 합치면 5x5x6짜리 convolution layers를 얻게 되고 이렇게 activation maps까지 얻는 일련의 과정을 convolution이라고 한다. 이런 convolution을 수십 수백번 반복하여 일정하여 모델을 만들어 활용 하는 것을 CNN 알고리즘이라고 한다.
@@ -17,7 +13,11 @@ CNN 알고리즘을 이용한 동물 사진 분류 프로젝트
  - AWS SageMaker를 사용하여 상당히 큰 량의 데이터를 처리함으로 Auto Scailing의 이점을 최대한 활용하고 싶었다. 그 결과 Kaggle 에서 1.2 Gb의 동물 이미지 데이터를 구하였다.
 > https://www.kaggle.com/alessiocorrado99/animals10
 
-4. 액티비티 정의
+4. 프로젝트 설계도
+-------------------------------------------------------------------------------------------
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/CNN%20Model%20Project/CNN%20Model%20Project%20%EC%84%A4%EA%B3%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.png">
+
+5. 액티비티 정의
 -------------------------------------------------------------------------------------------
  - Users : 이 AI 모델을 작동시키는 유저이다.
  - AWS Console : AWS를 관리하는 종합 관리 콘솔이다.
