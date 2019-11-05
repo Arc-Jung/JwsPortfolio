@@ -1,30 +1,37 @@
 포트폴리오 문서
 ===========================================================================================
 
-
 Travel Web Project 여행 정보 웹 프로젝트
 -------------------------------------------------------------------------------------------
-- 접속주소 : http://18.221.37.6:8080/TravelProject/project/index.do
-- Technology stack : 스프링 프레임워크 / Ubuntu Server 14.04 LTS
-- 클라우드 컴퓨팅 : AWS EC2 t2.micro / AWS RDS Oracle Enterprise Edition / AWS S3 Bucket
+> 접속 링크 : http://18.221.37.6:8080/TravelProject/project/index.do
 
+    Technology stack : Spring Framework / Ubuntu Server
+
+- AWS : AWS EC2 t2.micro / AWS RDS Oracle Enterprise Edition / AWS S3 Bucket
 - 제 3회 백석대학교 산학협력단 링크플러스 지능형 소프트웨어 성과발표회 우수상 수상을 하였습니다.
 - 설계 목적 설정 : 학부내에서 팀프로젝트를 진행하여 팀원 전체의 실력 향상을 목표로 개발하였습니다.
+- 모든 서버 로그는 S3 스토리지에 자동으로 저장하도록 하였다.
 - ERD CLOUD 를 이용하여 데이터베이스를 한눈에 보기 편하게 설계를 하여 팀원들의 데이터베이스 이해도를 향상토록 하며 데이터베이스의 수정하기 전 ERD 클라우드에 미리 적용을 하여 백엔드를 구성하는 팀원의 혼선을 최소화 하도록 노력하였습니다.
-  - ( 링크 : https://www.erdcloud.com/d/WHzXSXHaNTFHu7rbc )
-- 모든 서버 로그는 S3 스토리지에 자동으로 저장합니다.
+> 데이터베이스 설계도 링크 : https://www.erdcloud.com/d/WHzXSXHaNTFHu7rbc
 
-******************************************************************************************
+
 Django Framework Project 장고 프레임워크 프로젝트
 ------------------------------------------------------------------------------------------
-Technology stack : Kotlin 1.3.31 / Django 2.2 LTS / Python 3.7 / JSON / Ubuntu Server 16.04 LTS
-- 클라우드 컴퓨팅 : AWS RDS Oracle Enterprise Edition / AWS EC2 t2.micro / AWS S3 Bucket / AWS CloudWatch / AWS Cloud9 IDE
-- RESTful API 개발 중.
+    Technology stack : Kotlin / Django / Python / JSON / Ubuntu Server
+- AWS : AWS RDS Oracle Enterprise Edition / AWS EC2 t2.micro / AWS S3 Bucket / AWS CloudWatch / AWS Cloud9 IDE
+- 20191106 : REST API 기반의 프로토타입 완성.
 
-******************************************************************************************
+CNN 알고리즘을 이용한 동물 사진 분류 프로젝트
+------------------------------------------------------------------------------------------
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/CNN%20Model%20Project/CNN%20Model%20Project%20%EC%84%A4%EA%B3%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.png">
+
+    Technology stack : AWS SageMaker, AWS S3 Bucket, AWS CloudWatch, CNN, TensorFlow
+
+ - CNN 알고리즘을 통하여 S3 버켓에 들어있는 특정 동물 사진의 동물 사진을 AI를 통하여 분류하는 API를 개발한다.
+
 Data Seience Project 데이터 사이언스 프로젝트
 ------------------------------------------------------------------------------------------
-- Technology stack : Web crawling, Pandas, Numpy, Unsupervised learning, Clustering, Decision Tree, Random Forest, , Beautifulsoup, Selenium
+    Technology stack : Web crawling, Pandas, Numpy, Unsupervised learning, Clustering, Decision Tree, Random Forest, , Beautifulsoup, Selenium
 - 네이버 뉴스 웹 크롤링
 - 크롬 웹 드라이버를 사용한 웹 크롤링
 - 부동산 데이터와 공시가격의 상관관계 분석
@@ -32,9 +39,10 @@ Data Seience Project 데이터 사이언스 프로젝트
 - 의료기관 병상 및 의료인 분석
 - 의료데이터 분석을 통한 심장 질환 유발률 비지도학습(unsupervised learning)과 군집(clustering)
 
-******************************************************************************************
+
 Embedded Software DI-6200V Project 대화기기 임베디드 소프트웨어 DI-6200V 프로젝트
 ------------------------------------------------------------------------------------------ 
+    C Language, Firmware, ARM
 - 임베디드 기반의 의약품 주입펌프의 폰트시스템 및 UI와 터치 시스템, DAC 구현 및 QA 화이트박스 테스트를 진행하였습니다.
 - (주)대화기기 기업 부설연구소내에서 연구원들과 프로젝트를 진행하였습니다.
 - ARM Cortex-M4 기반의 C언어 기반의 임베디드 펌웨어.
@@ -45,14 +53,12 @@ Embedded Software DI-6200V Project 대화기기 임베디드 소프트웨어 DI-
   - ( 제품 링크 : http://www.daiwha.com/bbs/board.php?bo_table=sub1_8&wr_id=14 )
 - (주)대화기기의 에서의 작성한 임베디드 기반의 의약품 주입펌프 DI-6200V의 코드는 (주)대화기기가 저작권을 가지고 있기 떄문에 Public Git에 올릴 수 없는 점 양해부탁드립니다.
 
-******************************************************************************************
+
 GF Consultant Freelance Projects 지에프컨설턴트 사회보장정보원 유지보수 프로젝트
 ------------------------------------------------------------------------------------------ 
 - Technology stack :
 - 작성 중.
 
-******************************************************************************************
-Apply Automate Project 잡플래닛 / 사람인 연동을 통한 자동 지원 프로젝트
+메가존클라우드 구글 클라우드 아키텍쳐 전문가 양성 프로그램
 ------------------------------------------------------------------------------------------ 
-- Technology stack :
-- 개발설계 중.
+20191106 추가.
