@@ -17,7 +17,7 @@ CNN 알고리즘을 이용한 동물 사진 분류 프로젝트
 
 4. 프로젝트 설계도
 -------------------------------------------------------------------------------------------
-<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/CNN%20Model%20Project/CNN%20Model%20Project%20%EC%84%A4%EA%B3%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.png">
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/CNN%20Model%20Project/CNN%20Model%20Project%20%EC%84%A4%EA%B3%84%20%ED%8C%8C%EC%9D%BC.png">
 
 5. 액티비티 정의
 -------------------------------------------------------------------------------------------

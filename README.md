@@ -17,13 +17,15 @@ Travel Web Project 여행 정보 웹 프로젝트
 
 Django Framework Project 장고 프레임워크 프로젝트
 ------------------------------------------------------------------------------------------
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/CNN%20Model%20Project/CNN%20Model%20Project%20%EC%84%A4%EA%B3%84%20%ED%8C%8C%EC%9D%BC.png">
+
     Technology stack : Kotlin / Django / Python / JSON / Ubuntu Server
 - AWS : AWS RDS Oracle Enterprise Edition / AWS EC2 t2.micro / AWS S3 Bucket / AWS CloudWatch / AWS Cloud9 IDE
 - 20191106 : REST API 기반의 프로토타입 완성.
 
 CNN 알고리즘을 이용한 동물 사진 분류 프로젝트
 ------------------------------------------------------------------------------------------
-<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/CNN%20Model%20Project/CNN%20Model%20Project%20%EC%84%A4%EA%B3%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.png">
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/CNN%20Model%20Project/CNN%20Model%20Project%20%EC%84%A4%EA%B3%84%20%ED%8C%8C%EC%9D%BC.png">
 
     Technology stack : AWS SageMaker, AWS S3 Bucket, AWS CloudWatch, CNN, TensorFlow
 
