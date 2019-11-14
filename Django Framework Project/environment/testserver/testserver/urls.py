@@ -17,10 +17,13 @@ from django.contrib import admin
 from django.urls import path
 from rest_framework import routers
 from django.conf.urls import url, include
+from rest_framework_swagger.views import get_swagger_view
 
+schema_view = get_swagger_view(title="API 정의 문서")
 
 urlpatterns = [
     url(r'^restapi/', include('restapi.urls')),
-    url(r'^admin/', admin.site.urls),
-    url(r'^bumarket/', include('bumarket.urls')),
+    url(r'^admin', admin.site.urls),
+    url(r'^bumarket', include('bumarket.urls')),
+    url(r'^apidoc', schema_view),
 ]

@@ -39,7 +39,7 @@ class LikeModel(models.Model):
 
 class SaleModel(models.Model):
     SaleId = models.AutoField(primary_key=True, max_length=20)
-    SaleDate = models.DateTimeField(default=date.today, null=True, blank=True)
+    SaleDate = models.DateTimeField(auto_now_add=True, null=True)
     ProductId = models.ForeignKey(ProductModel, on_delete = models.CASCADE) # 외래키 설정 이미지를 삭제 했을 때 연관 항목을 어떻게 할지 설정하는 옵션 : 자동 삭제로 설정
     
     def __str__(self):

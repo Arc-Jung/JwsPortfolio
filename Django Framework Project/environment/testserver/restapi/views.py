@@ -51,3 +51,6 @@ class UserImageViewSet(viewsets.ModelViewSet):
 class ProImageViewSet(viewsets.ModelViewSet):
     queryset = ProImageModel.objects.all()
     serializer_class = ProImageSerializer # JSON 으로 파싱    
+    
+    
+####################################################################

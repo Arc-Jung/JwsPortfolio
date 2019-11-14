@@ -61,10 +61,11 @@ class ProductList(generics.ListCreateAPIView):
         productserializer = ProductSerializer(productqueryset, many=True)
         return Response(productserializer.data)
         
-    #def book(self, request):
-    #    productqueryset = ProductModel.objects.all()
-    #    productqueryset = productqueryset.filter(ProductCategory="도서")
-    #    productserializer = ProductSerializer(productqueryset, many=True)
-    #    return Response(productserializer.data)
+    def book(self, request):
+        productqueryset = self.get_queryset()
+            q = request.GET.get('q', '') # GET request의 인자중에 q 값이 있으면 가져오고, 없으면 빈 문자열 넣기
+    if q: # q가 있으면
+        qs = qs.filter(title__icontains=q) # 제목에 q가 포함되어 있는 레코드만 필터링
+        return Response(productserializer.data)
 
 ####################################################################

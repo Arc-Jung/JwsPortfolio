@@ -23,7 +23,7 @@ class LikeSerializer(serializers.ModelSerializer):
 class SaleSerializer(serializers.ModelSerializer):
     class Meta:
         model = SaleModel
-        fields = ('Saleid', 'SaleDate', 'ProductId')
+        fields = ('SaleId', 'SaleDate', 'ProductId')
         
 class ImageSerializer(serializers.ModelSerializer):
     class Meta:
