@@ -4,14 +4,13 @@
 Travel Web Project 여행 정보 웹 프로젝트
 -------------------------------------------------------------------------------------------
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Travel%20Web%20Project/Travel%20index%20small.png">
-
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Travel%20Web%20Project/Travel%20DB.png">
 
 > 접속 링크 : http://18.221.37.6:8080/TravelProject/project/index.do
 
 > 데이터베이스 설계도 링크 : https://www.erdcloud.com/d/WHzXSXHaNTFHu7rbc
 
-    Technology stack : Java / Spring Framework / Ubuntu Server / 
+    Technology stack : Java / Spring Framework / Ubuntu Server
 
 - AWS : AWS EC2 t2.micro / AWS RDS Oracle Enterprise Edition / AWS S3 Bucket
 - 제 3회 백석대학교 산학협력단 링크플러스 지능형 소프트웨어 성과발표회 우수상 수상을 하였습니다.
@@ -25,6 +24,9 @@ Django Framework Project 장고 프레임워크 프로젝트
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/REST%20API.png">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/BuMarket%20API%20Document.png">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/BuMarket%20AWS%20Architecture.png">
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/BuMarket%20Database.png">
+
+> 데이터베이스 설계도 링크 : https://www.erdcloud.com/d/e35oC4NbBWmdfeCJn
 
     Technology stack : Kotlin / Django / Python / JSON / Ubuntu Server
 - AWS : AWS RDS Oracle Enterprise Edition / AWS EC2 t2.micro / AWS S3 Bucket / AWS CloudWatch / AWS Cloud9 IDE
@@ -34,13 +36,14 @@ CNN 알고리즘을 이용한 동물 사진 분류 프로젝트
 ------------------------------------------------------------------------------------------
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/CNN%20Model%20Project/CNN%20Model%20Project%20%EC%84%A4%EA%B3%84%20%ED%8C%8C%EC%9D%BC.png">
 
-    Technology stack : AWS SageMaker, AWS S3 Bucket, AWS CloudWatch, CNN, TensorFlow
+    Technology stack : AWS SageMaker / AWS S3 Bucket / AWS CloudWatch / CNN / TensorFlow
 
  - CNN 알고리즘을 통하여 S3 버켓에 들어있는 특정 동물 사진의 동물 사진을 AI를 통하여 분류하는 API를 개발한다.
 
 Data Seience Project 데이터 사이언스 학습
 ------------------------------------------------------------------------------------------
-    Technology stack : Web crawling / Pandas, Numpy / Unsupervised learning / Clustering, Decision Tree / Random Forest / Beautifulsoup / Selenium
+    Technology stack : Web crawling / Pandas / Numpy / Unsupervised learning / Clustering / Decision Tree / Random Forest / Beautifulsoup / Selenium
+
 - 네이버 뉴스 웹 크롤링
 - 크롬 웹 드라이버를 사용한 웹 크롤링
 - 부동산 데이터와 공시가격의 상관관계 분석
@@ -67,9 +70,9 @@ Embedded Software DI-6200V Project 대화기기 임베디드 소프트웨어 DI-
 
 GF Consultant Freelance Projects 지에프컨설턴트 사회보장정보원 유지보수 프로젝트
 ------------------------------------------------------------------------------------------ 
-- Technology stack :
+    Technology stack : JAVA / MSSQL / Spring
 - 작성 중.
 
 메가존클라우드 구글 클라우드 아키텍쳐 전문가 양성 프로그램
 ------------------------------------------------------------------------------------------ 
-- 20191106 추가.
+    20191106 추가.
