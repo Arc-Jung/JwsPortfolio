@@ -29,3 +29,27 @@ CNN 알고리즘을 이용한 동물 사진 분류 프로젝트
 - Auto Scailing : 오토스케일링은 클라우드 환경의 가장 기본적인 요소들 중에 하나로,
 갑작스러운 트래픽 집중에 서버, 스토리지 등의 자원이 자동으로 확장하면서, 안정적인 서비스를 유지하는 것이다. 특히 머신러닝과 같은 대량의 CPU, GPU 자원이 필요할 때 무한에 가까운 컴퓨팅 자원을 사용할 수 있다.
 - S3 Bucket : S3란 Simple Storage Service의 약자로 쉽게말해 파일을 저장하는 저장소입니다. AWS에 필요한 대부분의 파일은 이 S3 Bucket에 저장하여 서비스하게 됩니다. 이 프로젝트에 사용하는 목적은 머신러닝에 사용 할 데이터는 적게는 수백 메가바이트에서 많게는 페타바이트에 달하는 데이터를 저장하기엔 물리적인 드라이브로는 한계가 있다. 하지만 S3 Bucket을 이용하면 무한정에 가까운 데이터를 저장하여 머신러닝에 사용 할 수 있다.
+
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.IsAuthenticated',
+    ),
+    'DEFAULT_FILTER_BACKENDS': (
+        #'rest_framework.filters.SearchFilter',
+        #'rest_framework.filters.OrderingFilter',
+    ),
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        #'helpers.authentication.TokenAuthentication', # 토큰 비활성화
+    ),
+    'DEFAULT_MODEL_SERIALIZER_CLASS': (
+        #'rest_framework.serializers.ModelSerializer',
+    ),
+    'DEFAULT_PARSER_CLASSES': (
+        'rest_framework.parsers.JSONParser',
+        'rest_framework.parsers.FormParser',
+        'rest_framework.parsers.MultiPartParser',
+    ),
+    'DEFAULT_SCHEMA_CLASS': (
+        'rest_framework.schemas.coreapi.AutoSchema' 
+    ),
+}
