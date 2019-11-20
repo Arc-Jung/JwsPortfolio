@@ -6,7 +6,7 @@
         "@searchLimit": 100
     },
     "instance": {
-        "@automaticShutdown": "30"
+        "@automaticShutdown": "never"
     },
     "language": {
         "tern_defs": {
@@ -29,7 +29,7 @@
     "run": {
         "@runner": "Python 3",
         "configs": {
-            "@inited": "true",
+            "@inited": true,
             "json()": {}
         }
     },

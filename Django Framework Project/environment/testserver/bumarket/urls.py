@@ -8,8 +8,11 @@ from .serializers import UserSerializer, ProductSerializer, LikeSerializer, Sale
 from rest_framework import generics
 
 urlpatterns = [
-    url(r'^/user', views.UserList.as_view(queryset=UserModel.objects.all(), serializer_class=UserSerializer), name='userlist'),
-    url(r'^/product/all', views.ProductList.as_view(queryset=ProductModel.objects.all(), serializer_class=ProductSerializer), name='product/all'),
-    url(r'^/product/book', views.ProductList.as_view(queryset=ProductModel.objects.all().filter(ProductCategory="도서"), serializer_class=ProductSerializer), name='product/book'),
-    url(r'^/product/food', views.ProductList.as_view(queryset=ProductModel.objects.all().filter(ProductCategory="음식"), serializer_class=ProductSerializer), name='product/food'),
+    #url(r'/$', views.UserList.as_view(), name='index'),
+    url(r'user/', views.UserList.as_view(), name='userlist'),
+    url(r'userdetail/', views.UserDetail.as_view(), name='userdetail'),
+    url(r'product/', views.ProductList.as_view(), name='all'),
+    url(r'category/', views.category.as_view(), name='category'),
+    url(r'regist/', views.Regist.as_view(), name='regist'),
+    url(r'login/', views.Login.as_view(), name='login'),
     ]

@@ -4,6 +4,8 @@
 #serializer는 django의 models 객체나 querysets 데이터를 그러한 JSON 포맷으로 변환하는 역할을 한다.
 from rest_framework import serializers
 from .models import UserModel, ProductModel, LikeModel, SaleModel, UserImageModel, ProImageModel, ImageModel
+from django.contrib.auth.models import User
+from django.contrib.auth import authenticate
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
@@ -39,3 +41,13 @@ class ProImageSerializer(serializers.ModelSerializer):
     class Meta:
         model = ProImageModel
         fields = ('ProImageModelId', 'ImageId', 'ProductId')
+        
+class LoginSerializer(serializers.Serializer):
+    UserId = serializers.CharField()
+    Password = serializers.CharField()
+ 
+    def validate(self, data):
+        user = authenticate(**data)
+        if user and user.is_active:
+            return user
+        raise serializers.ValidationError("Incorrect Credentials")

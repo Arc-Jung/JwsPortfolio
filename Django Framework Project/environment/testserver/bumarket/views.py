@@ -11,7 +11,7 @@ import json
 
 from django.db import models
 from .models import UserModel, ProductModel, SaleModel, LikeModel, SaleModel, ImageModel, UserImageModel, ProImageModel # Model import
-from .serializers import UserSerializer, ProductSerializer, LikeSerializer, SaleSerializer, ImageSerializer, UserImageSerializer, ProImageSerializer # Serializer import
+from .serializers import ( UserSerializer, ProductSerializer, LikeSerializer, SaleSerializer, ImageSerializer, UserImageSerializer, ProImageSerializer,LoginSerializer ) # Serializer import
 from django.http import JsonResponse
 from django.http import HttpResponse
 from django.contrib.auth import login, authenticate #20191002
@@ -34,37 +34,82 @@ from rest_framework import status
 
 from django.contrib.auth.models import User
 from rest_framework import generics
-import logging
-logger = logging.getLogger('testlog')
+from django.contrib.auth import authenticate
+from knox.models import AuthToken
+from django_filters.rest_framework import DjangoFilterBackend
+from rest_framework.pagination import PageNumberPagination
 
 ####################################################################
-
-class UserList(generics.ListCreateAPIView):
-    userqueryset = UserModel.objects.all()
-    serializer_class = UserSerializer
-
-    def list(self, request):
-        # Note the use of `get_queryset()` instead of `self.queryset`
-        userqueryset = self.get_queryset()
-        userserializer = UserSerializer(userqueryset, many=True)
-        return Response(userserializer.data)
-
-####################################################################
-
-class ProductList(generics.ListCreateAPIView):
-    productqueryset = ProductModel.objects.all()
-    serializer_class = ProductModel
-
-    def list(self, request):
-        # Note the use of `get_queryset()` instead of `self.queryset`
-        productqueryset = self.get_queryset()
-        productserializer = ProductSerializer(productqueryset, many=True)
-        return Response(productserializer.data)
         
-    #def book(self, request):
+class UserList(generics.ListCreateAPIView):
+    queryset = UserModel.objects.all()
+    serializer_class = UserSerializer
+  
+####################################################################
+
+class UserDetail(generics.ListCreateAPIView):
+    queryset = UserModel.objects.all()
+    serializer_class = UserSerializer
+    filter_backends = (filters.SearchFilter,)
+    search_fields = ('UserId',)
+####################################################################
+        
+class ProductList(generics.ListCreateAPIView ):
+    queryset = ProductModel.objects.all()
+    serializer_class = ProductSerializer
+    pagination_class = PageNumberPagination
+    
+
+    #def list(self, request):
+    #    # Note the use of `get_queryset()` instead of `self.queryset`
+    #    #productqueryset = self.get_queryset()
+    #    productqueryset=ProductModel.objects.all()
+    #    productserializer = ProductSerializer(productqueryset, many=True)
+    #    return Response(productserializer.data)
+        
+    #def category(self, request):
     #    productqueryset = ProductModel.objects.all()
-    #    productqueryset = productqueryset.filter(ProductCategory="도서")
+    #    productqueryset = productqueryset.filter(ProductCategory="request")
     #    productserializer = ProductSerializer(productqueryset, many=True)
     #    return Response(productserializer.data)
 
 ####################################################################
+
+class category(generics.ListCreateAPIView):
+    queryset = ProductModel.objects.all()
+    serializer_class = ProductSerializer
+    filter_backends = (filters.SearchFilter,)
+    search_fields = ('ProductCategory',)
+    
+####################################################################
+
+class Login(generics.GenericAPIView):
+    serializer_class = LoginSerializer
+    
+    def post(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        user = serializer.validated_data
+        # 위의 validated_data로써 계정 인증을 
+        return Response({
+            "user": UserSerializer(user,
+            context=UserSerializer.get_serializer_context()).data,
+            "token": AuthToken.objects.create(user)[1]
+        })
+
+####################################################################
+
+class Regist(generics.GenericAPIView):
+    serializer_class = UserSerializer
+    
+## kwargs basically means it can take more arguments
+    def post(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        user = serializer.save() 
+        # 위의 save 코드로 인해 data가 저장됨
+        return Response({
+            "user": UserSerializer(user,
+            context=self.get_serializer_context()).data,
+            "token": AuthToken.objects.create(user)[1]
+        })

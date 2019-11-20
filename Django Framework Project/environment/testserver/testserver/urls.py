@@ -23,7 +23,7 @@ schema_view = get_swagger_view(title="API 정의 문서")
 
 urlpatterns = [
     url(r'^restapi/', include('restapi.urls')),
-    url(r'^admin', admin.site.urls),
-    url(r'^bumarket', include('bumarket.urls')),
-    url(r'^apidoc', schema_view),
+    url(r'^admin/', admin.site.urls),
+    url(r'^bumarket/', include('bumarket.urls')),
+    url(r'^$', schema_view, name='index'),
 ]
