@@ -7,6 +7,7 @@
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/BuMarket%20API%20Document.png">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/BuMarket%20AWS%20Architecture.png">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/BuMarket%20Database.png">
+<img src="https://bumarket.s3.ap-northeast-2.amazonaws.com/BuMarket+AWS+Cloud9.png">
 
 > 백석마켓 상품페이지 API : http://18.189.29.144:8000/bumarket/product/
 
