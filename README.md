@@ -67,10 +67,10 @@ Data Seience Project 데이터 사이언스 학습
 
 Embedded Software DI-6200V Project 대화기기 임베디드 소프트웨어 DI-6200V 프로젝트
 ------------------------------------------------------------------------------------------ 
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Embedded%20Software%20DI-6200V%20Project/DI-6200V_0.jpg">
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Embedded%20Software%20DI-6200V%20Project/DI-6200V_1.png">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Embedded%20Software%20DI-6200V%20Project/DI-6200V_2.png">
-<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Embedded%20Software%20DI-6200V%20Project/DI-6200V_2.png">
-<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Embedded%20Software%20DI-6200V%20Project/DI-6200V_2.png">
-<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Embedded%20Software%20DI-6200V%20Project/DI-6200V_2.png">
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Embedded%20Software%20DI-6200V%20Project/DI-6200V_3.png">
 
     C Language / Firmware / ARM
 
@@ -79,7 +79,8 @@ Embedded Software DI-6200V Project 대화기기 임베디드 소프트웨어 DI-
 - ARM Cortex-M4 기반의 C언어 기반의 임베디드 펌웨어.
 - 운영체제가 없는 144mhz 싱글코어 CPU와 2048kb의 메모리와 16MB 플래시메모리의 시스템에서의 개발을 진행하였습니다.
 - 폰트에 쓰이는 용량까지 줄이기 위해 영문의 대소문자 52글자와 숫자, 특수문자를 전부 픽셀단위로 배열에 저장하여 해당하는 포인터값을 출력하기 위해서 아스키 코드를 이용하여 해당하는 폰트를 출력하는 코드를 완성함.
-- 프리랜서 계약 종료 이후 제가 작성해둔 폰트 코드를 이용하여 포르투갈어까지 포팅되어 판매 중입니다.
+- 프리랜서 계약 종료 이후 제가 작성해둔 폰트 코드를 이용하여 다수의 언어로 포팅되어 판매 중입니다.
+  
 > 뉴스 링크 : http://kr.aving.net/news/view.php?articleId=1498832&Branch_ID=kr&rssid=naver&mn_name=news
 
 > 제품 링크 : http://www.daiwha.com/bbs/board.php?bo_table=sub1_8&wr_id=14
