@@ -1,6 +1,5 @@
-포트폴리오 문서
-===========================================================================================
-
+# Portfolio Document
+##### ***Made by JWS***
 Travel Web Project 여행 정보 웹 프로젝트
 -------------------------------------------------------------------------------------------
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Travel%20Web%20Project/Travel%20index%20small.png">
@@ -20,11 +19,6 @@ Travel Web Project 여행 정보 웹 프로젝트
 
 Django Framework Project 장고 프레임워크 프로젝트
 ------------------------------------------------------------------------------------------
-<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/Scalable%20RESTful%20Server%20Architecture.png">
-<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/REST%20API.png">
-<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/BuMarket%20API%20Document.png">
-<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/BuMarket%20Database.png">
-
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/Scalable%20RESTful%20Server%20Architecture.png">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/REST%20API.png">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/BuMarket%20API%20Document.png">
