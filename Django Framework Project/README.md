@@ -17,7 +17,7 @@
 
 - Technology stack : Kotlin / Django / Python / JSON / Ubuntu Server
 - AWS : AWS RDS Oracle Enterprise Edition / AWS EC2 t2.micro / AWS S3 Bucket / AWS CloudWatch / AWS Cloud9 IDE
-- 2019년 11월 06일 : REST API 기반의 프로토타입 완성.
+- 2019년 11월 06일 : RESTful API 기반의 프로토타입 완성.
 - 2019년 11월 22일 : 백석대학교 캡스톤디자인 발표.
 
 목차
