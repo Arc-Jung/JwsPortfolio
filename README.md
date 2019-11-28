@@ -20,17 +20,30 @@ Travel Web Project 여행 정보 웹 프로젝트
 
 Django Framework Project 장고 프레임워크 프로젝트
 ------------------------------------------------------------------------------------------
-
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/Scalable%20RESTful%20Server%20Architecture.png">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/REST%20API.png">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/BuMarket%20API%20Document.png">
-<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/BuMarket%20AWS%20Architecture.png">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/BuMarket%20Database.png">
+
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/Scalable%20RESTful%20Server%20Architecture.png">
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/REST%20API.png">
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/BuMarket%20API%20Document.png">
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/BuMarket%20Database.png">
+
+> 상품페이지 API : http://18.189.29.144:8000/bumarket/product/
+
+> API 정의 페이지 : http://18.189.29.144:8000/
 
 > 데이터베이스 설계도 링크 : https://www.erdcloud.com/d/e35oC4NbBWmdfeCJn
 
-    Technology stack : Kotlin / Django / Python / JSON / Ubuntu Server
-- AWS : AWS RDS Oracle Enterprise Edition / AWS EC2 t2.micro / AWS S3 Bucket / AWS CloudWatch / AWS Cloud9 IDE
-- 20191106 : REST API 기반의 프로토타입 완성.
+- Technology stack
+        
+        Kotlin / Django / Python / JSON / Ubuntu Server
+- AWS
+        
+        AWS RDS Oracle Enterprise Edition / AWS EC2 t2.micro 3EA / 
+        AWS EC2 t3.micro 3EA / AWS S3 Bucket / AWS CloudWatch / 
+        AWS Cloud9 IDE
 
 CNN 알고리즘을 이용한 동물 사진 분류 프로젝트
 ------------------------------------------------------------------------------------------
@@ -55,8 +68,12 @@ Data Seience Project 데이터 사이언스 학습
 Embedded Software DI-6200V Project 대화기기 임베디드 소프트웨어 DI-6200V 프로젝트
 ------------------------------------------------------------------------------------------ 
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Embedded%20Software%20DI-6200V%20Project/DI-6200V_2.png">
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Embedded%20Software%20DI-6200V%20Project/DI-6200V_2.png">
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Embedded%20Software%20DI-6200V%20Project/DI-6200V_2.png">
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Embedded%20Software%20DI-6200V%20Project/DI-6200V_2.png">
 
     C Language / Firmware / ARM
+
 - 임베디드 기반의 의약품 주입펌프의 폰트시스템 및 UI와 터치 시스템 전반을 당담하였습니다.
 - (주)대화기기 기업 부설연구소내에서 연구원들과 프로젝트를 진행하였습니다.
 - ARM Cortex-M4 기반의 C언어 기반의 임베디드 펌웨어.
