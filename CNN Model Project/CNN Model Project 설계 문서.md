@@ -1,10 +1,17 @@
 CNN 알고리즘을 이용한 동물 사진 분류 프로젝트
 ===========================================================================================
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/CNN%20Model%20Project/CNN%20Model%20Project%20%EC%84%A4%EA%B3%84%20%ED%8C%8C%EC%9D%BC.png">
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/CNN%20Model%20Project/CNN%20Model%20Project%20%EC%84%A4%EA%B3%84%20%ED%8C%8C%EC%9D%BC.png">
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/CNN%20Model%20Project/CNN%20Model%20Project%20%EC%84%A4%EA%B3%84%20%ED%8C%8C%EC%9D%BC.png">
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/CNN%20Model%20Project/CNN%20Model%20Project%20%EC%84%A4%EA%B3%84%20%ED%8C%8C%EC%9D%BC.png">
     Technology stack : AWS SageMaker / AWS S3 Bucket / AWS CloudWatch / CNN / TensorFlow
 
 1. 프로젝트 개요
 -------------------------------------------------------------------------------------------
 - CNN 알고리즘을 통하여 S3 버켓에 들어있는 특정 동물 사진의 동물 사진을 AI를 통하여 분류하는 API를 개발한다.
+- Amazon Web Service SageMaker를 통하여 모델을 구축한다.
+- 사용 인스턴스는 ml.m5.xlarge 이며 4vCPU 16GB 의 성능을 가진 강력한 인스턴스.
+- 이미지 데이터세은 동물 10여종의 5만여장의 사진 중 5000여장을 사용.
 
 2. CNN 알고리즘
 -------------------------------------------------------------------------------------------
