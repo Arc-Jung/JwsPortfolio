@@ -13,9 +13,10 @@ CNN 알고리즘을 이용한 동물 사진 분류 프로젝트
 3. 이미지 데이터셋
 -------------------------------------------------------------------------------------------
 - AWS SageMaker를 사용하여 상당히 큰 량의 데이터를 처리함으로 Auto Scailing의 이점을 최대한 활용하고 싶었다. 그 결과 Kaggle 에서 1.2 Gb의 동물 이미지 데이터를 구하였다.
+  
 > https://www.kaggle.com/alessiocorrado99/animals10
 
-4. 프로젝트 아키텍처
+1. 프로젝트 아키텍처
 -------------------------------------------------------------------------------------------
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/CNN%20Model%20Project/CNN%20Model%20Project%20%EC%84%A4%EA%B3%84%20%ED%8C%8C%EC%9D%BC.png">
 
@@ -34,8 +35,9 @@ CNN 알고리즘을 이용한 동물 사진 분류 프로젝트
 > https://www.guru99.com/keras-tutorial.html
 > https://docs.aws.amazon.com/cli/latest/reference/sagemaker/update-notebook-instance.html
 
-  update-notebook-instance
---notebook-instance-name <value>
-[--instance-type <value>]
+1. Amazon SageMaker
+-------------------------------------------------------------------------------------------
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/CNN%20Model%20Project/AWS%20SageMaker.png">
 
-aws sagemaker update-notebook-instance --notebook-instance-name DeepleanrningProject --instance-type ml.t2.2xlarge
+> 모든 개발자와 데이터 과학자를 위한 머신러닝.
+- Amazon SageMaker는 모든 개발자와 데이터 과학자에게 기계 학습 모델을 신속하게 구축 및 학습하고 배포할 수 있는 기능을 제공합니다. Amazon SageMaker는 전체 기계 학습 워크플로를 포괄하여 데이터를 분류 및 준비하고, 알고리즘을 선택하며, 모델을 학습하고, 배포를 위해 조정 및 최적화하고, 예측을 수행하며, 작업을 수행하는 완전관리형 서비스입니다. 훨씬 적은 노력과 비용으로 더 빨리 모델을 실행할 수 있습니다. 기본 제공되는 쥬피터랩을 통해 목적에 맞는 개발환경을 클릭 몇번으로 변경하거나 구축 할 수 있습니다.
