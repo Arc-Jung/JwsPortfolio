@@ -1,21 +1,5 @@
 # Portfolio Document
 ##### ***Made by JWS***
-Travel Web Project 여행 정보 웹 프로젝트
--------------------------------------------------------------------------------------------
-<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Travel%20Web%20Project/Travel%20index%20small.png">
-<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Travel%20Web%20Project/Travel%20DB.png">
-
-> 접속 링크 : http://18.221.37.6:8080/TravelProject/project/index.do
-
-> 데이터베이스 설계도 링크 : https://www.erdcloud.com/d/WHzXSXHaNTFHu7rbc
-
-    Technology stack : Java / Spring Framework / Ubuntu Server
-
-- AWS : AWS EC2 t2.micro / AWS RDS Oracle Enterprise Edition / AWS S3 Bucket
-- 제 3회 백석대학교 산학협력단 링크플러스 지능형 소프트웨어 성과발표회 우수상 수상을 하였습니다.
-- 설계 목적 설정 : 학부내에서 팀프로젝트를 진행하여 팀원 전체의 실력 향상을 목표로 개발하였습니다.
-- 모든 서버 로그는 S3 스토리지에 자동으로 저장하도록 하였다.
-- ERD CLOUD 를 이용하여 데이터베이스를 한눈에 보기 편하게 설계를 하여 팀원들의 데이터베이스 이해도를 향상토록 하며 데이터베이스의 수정하기 전 ERD 클라우드에 미리 적용을 하여 백엔드를 구성하는 팀원의 혼선을 최소화 하도록 노력하였습니다.
 
 Django Framework Project 장고 프레임워크 프로젝트
 ------------------------------------------------------------------------------------------
@@ -38,6 +22,23 @@ Django Framework Project 장고 프레임워크 프로젝트
         AWS RDS Oracle Enterprise Edition / AWS EC2 t2.micro 3EA / 
         AWS EC2 t3.micro 3EA / AWS S3 Bucket / AWS CloudWatch / 
         AWS Cloud9 IDE
+
+Travel Web Project 여행 정보 웹 프로젝트
+-------------------------------------------------------------------------------------------
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Travel%20Web%20Project/Travel%20index%20small.png">
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Travel%20Web%20Project/Travel%20DB.png">
+
+> 접속 링크 : http://18.221.37.6:8080/TravelProject/project/index.do
+
+> 데이터베이스 설계도 링크 : https://www.erdcloud.com/d/WHzXSXHaNTFHu7rbc
+
+    Technology stack : Java / Spring Framework / Ubuntu Server
+
+- AWS : AWS EC2 t2.micro / AWS RDS Oracle Enterprise Edition / AWS S3 Bucket
+- 제 3회 백석대학교 산학협력단 링크플러스 지능형 소프트웨어 성과발표회 우수상 수상을 하였습니다.
+- 설계 목적 설정 : 학부내에서 팀프로젝트를 진행하여 팀원 전체의 실력 향상을 목표로 개발하였습니다.
+- 모든 서버 로그는 S3 스토리지에 자동으로 저장하도록 하였다.
+- ERD CLOUD 를 이용하여 데이터베이스를 한눈에 보기 편하게 설계를 하여 팀원들의 데이터베이스 이해도를 향상토록 하며 데이터베이스의 수정하기 전 ERD 클라우드에 미리 적용을 하여 백엔드를 구성하는 팀원의 혼선을 최소화 하도록 노력하였습니다.
 
 CNN 알고리즘을 이용한 동물 사진 분류 프로젝트
 ------------------------------------------------------------------------------------------
@@ -88,3 +89,7 @@ GF Consultant Freelance Projects 지에프컨설턴트 사회보장정보원 유
 메가존클라우드 구글 클라우드 아키텍쳐 전문가 양성 프로그램
 ------------------------------------------------------------------------------------------ 
     20191106 추가.
+
+Checker
+------------------------------------------------------------------------------------------ 
+<img src="https://jwsgithub.s3.us-east-2.amazonaws.com/REST%20API.png?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkcwRQIhAJFOlrkQCyO%2BY%2F4q4gG9zmXnjtzYSxn7seWpUUK%2FMwDxAiBbvZK8M59uiuEVIjR9tPNWhfXn9riRLpG10ywMnsjh7SqNAghvEAEaDDQyNzQyNzQyNTE3MiIMEi5tJ%2B5bPJPtPsA6KuoBxd%2FGI3EG2pqWMTlNU7M%2BBUxaG8Nz1bpjuxDv%2FXPDUrRRHhNg4LFTcs%2FBvbcxp8uUAB200JFjH9MfzP2ubCSvrikPPcR%2F%2Brhvl2fYcp8aLhirgWCv3aRrpW%2BBuQrbqtnhseZC0c51X0nWOd09tCGptK9jpgZk27Kt%2BZzhWdWqpYOttHC3B2%2FzEoPmNxXtiRrwUJN5iplfnhPXRoWg2E1YKXV8W3cYoQKjhGk%2F3atDbchp83IPhniFF8%2Bxv1uP%2BlEcQZYI4DO0CPh0KS3OrW1VRjW608j5c%2F4vGOoHBatwFQM5jGri0zz7uMAIMLXI%2BvAFOoIDiSF1QZGov8sMGDIdoM1j%2BqINb3ABfzittq0da2i55DBOpF33t3eRC25iRLUbshmpEDNc2GP8k2JwdhoyWzLYXNafXERK3q%2Fn6fmLw22mdbt%2BXtKCX%2BzVekfbBCBtLzMkidYMQK6wBwSFJUMa3zUNLriOj48s%2Bv3XX5FBTDbtmSY%2FNmJvBQHYo%2F3e4KO92uu1No8XvGEsf9j6DN2cgVtThrYhKK23OZMkodvGjb%2B8iPiQrZahkQshcbVXwCuGiX4hbXghz2wVbrP3CPplnJ%2B%2F0Uz1li6mDejTD8C%2BrafpVaRYxwXk%2FfQJiduxDnZhZlS%2BWFV60Cf0DFdIokfN5q1qEI9Ycp7MwvXbTE0wHiq%2BQscgE0QDJZ88rdL8SCh%2BMoTR9zHp72DbDet80s71FR62W9Mi5xyc8VJi0JNNxC0CY8QZuAwS1BIXg1Aa%2FbNF2x7rx7ut5Jkg6xp2qMTeh8e%2FoxGemR5f4kcRy3GV1BcrA%2BOv%2BXcLjS1RJPvAP1TjxL0xUPs%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200115T061227Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAWHBFI5OKEFUCIPCE%2F20200115%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Signature=b40ccc6930c64ed0f969187eea390e271e0f2cabb3d188505fe59b94e21a2d05">
