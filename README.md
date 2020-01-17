@@ -8,9 +8,9 @@ Django Framework Project 장고 프레임워크 프로젝트
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/BuMarket%20API%20Document.png">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/BuMarket%20Database.png">
 
-> 상품페이지 API : http://18.189.29.144:8000/bumarket/product/
-
 > API 정의 페이지 : http://18.189.29.144:8000/
+
+> 상품페이지 API : http://18.189.29.144:8000/bumarket/product/
 
 > 데이터베이스 설계도 링크 : https://www.erdcloud.com/d/e35oC4NbBWmdfeCJn
 
