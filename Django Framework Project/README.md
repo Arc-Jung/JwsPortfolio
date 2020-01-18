@@ -1,7 +1,5 @@
-백석마켓 코드명 BuMarket 소개
+BuMarket README
 ==========================================================================================
-*백석대학교 링크플러스 캡스톤 디자인 4조 *
-------------------------------------------------------------------------------------------
 
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/Scalable%20RESTful%20Server%20Architecture.png">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/REST%20API.png">
@@ -25,6 +23,7 @@
 
 - 2019년 11월 06일 : RESTful API 기반의 프로토타입 완성.
 - 2019년 11월 22일 : 백석대학교 캡스톤디자인 발표.
+- 2020년 1월 18일 : AWS S3에 모든 로그 저장.
 
 목차
 -------------------------------------------------------------------------------------------
