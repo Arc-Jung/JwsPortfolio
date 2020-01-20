@@ -7,7 +7,7 @@ Django Framework Project 장고 프레임워크 프로젝트
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/REST%20API.png">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/BuMarket%20API%20Document.png">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/BuMarket%20Database.png">
-<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/BuMarket%20DGithub.png">
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/BuMarket%20Github.png">
 
 > API 정의 페이지 : http://18.189.29.144:8000/
 
@@ -63,7 +63,7 @@ Data Seience Project 데이터 사이언스 학습
 
 Embedded Software DI-6200V Project 대화기기 임베디드 소프트웨어 DI-6200V 프로젝트
 ------------------------------------------------------------------------------------------
-<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Embedded%20Software%20DI-6200V%20Project/DI-6200V_News.png">
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Embedded%20Software%20DI-6200V%20Project/DI-6200V%20News.png">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Embedded%20Software%20DI-6200V%20Project/DI-6200V_0.jpg">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Embedded%20Software%20DI-6200V%20Project/DI-6200V_1.png">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Embedded%20Software%20DI-6200V%20Project/DI-6200V_2.png">
