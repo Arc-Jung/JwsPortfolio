@@ -1,10 +1,12 @@
 BuMarket README
 ==========================================================================================
-
+Django Framework Project 장고 프레임워크 프로젝트
+------------------------------------------------------------------------------------------
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/Scalable%20RESTful%20Server%20Architecture.png">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/REST%20API.png">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/BuMarket%20API%20Document.png">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/BuMarket%20Database.png">
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/BuMarket%20DGithub.png">
 
 > 상품페이지 API : http://18.189.29.144:8000/bumarket/product/
 
