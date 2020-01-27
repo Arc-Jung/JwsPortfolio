@@ -15,12 +15,13 @@ Django Framework Project 장고 프레임워크 프로젝트
 > 데이터베이스 설계도 링크 : https://www.erdcloud.com/d/e35oC4NbBWmdfeCJn
 
 - Technology stack
-        
+
         Kotlin / Django / Python / JSON / Ubuntu Server
+        
 - AWS
         
-        AWS RDS Oracle Enterprise Edition / AWS EC2 t2.micro 3EA / 
-        AWS EC2 t3.micro 3EA / AWS S3 Bucket / AWS CloudWatch / 
+        AWS RDS Oracle Enterprise Edition / AWS EC2 t2.micro Scale up 4EA / 
+        AWS EC2 t3.micro Scale up 4EA / AWS S3 Bucket / AWS CloudWatch / 
         AWS Cloud9 IDE
 
 - 2019년 11월 06일 : RESTful API 기반의 프로토타입 완성.
@@ -29,11 +30,10 @@ Django Framework Project 장고 프레임워크 프로젝트
 
 목차
 -------------------------------------------------------------------------------------------
-1. 프로젝트 README
-2. 프로젝트 목적 및 개요 정의 문서
-3. 데이터베이스 설계문서
-4. 언어 및 프레임워크와 버전관리 정의 문서
-5. 클라우드 서비스 정의 문서
-6. RESTful API 기능 정의 문서
-7. 개발 환경 및 의존성 정의 문서
-8. 어플리케이션 개발 프로세스 정의 및 이슈 관리 문서
+1. 프로젝트 목적 및 개요 정의 문서
+2. 데이터베이스 설계문서
+3. 언어 및 프레임워크와 버전관리 정의 문서
+4. 클라우드 서비스 정의 문서
+5. RESTful API 기능 정의 문서
+6. 개발 환경 및 의존성 정의 문서
+7. 어플리케이션 개발 프로세스 정의 및 이슈 관리 문서

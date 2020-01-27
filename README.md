@@ -16,13 +16,24 @@ Django Framework Project 장고 프레임워크 프로젝트
 > 데이터베이스 설계도 링크 : https://www.erdcloud.com/d/e35oC4NbBWmdfeCJn
 
 - Technology stack
-        
+
         Kotlin / Django / Python / JSON / Ubuntu Server
+
 - AWS
         
-        AWS RDS Oracle Enterprise Edition / AWS EC2 t2.micro 3EA / 
-        AWS EC2 t3.micro 3EA / AWS S3 Bucket / AWS CloudWatch / 
+        AWS RDS Oracle Enterprise Edition / AWS EC2 t2.micro Scale up 4EA / 
+        AWS EC2 t3.micro Scale up 4EA / AWS S3 Bucket / AWS CloudWatch / 
         AWS Cloud9 IDE
+        
+목차
+-------------------------------------------------------------------------------------------
+1. 프로젝트 목적 및 개요 정의 문서
+2. 데이터베이스 설계문서
+3. 언어 및 프레임워크와 버전관리 정의 문서
+4. 클라우드 서비스 정의 문서
+5. RESTful API 기능 정의 문서
+6. 개발 환경 및 의존성 정의 문서
+7. 어플리케이션 개발 프로세스 정의 및 이슈 관리 문서
 
 Travel Web Project 여행 정보 웹 프로젝트
 -------------------------------------------------------------------------------------------
@@ -38,7 +49,7 @@ Travel Web Project 여행 정보 웹 프로젝트
 - AWS : AWS EC2 t2.micro / AWS RDS Oracle Enterprise Edition / AWS S3 Bucket
 - 제 3회 백석대학교 산학협력단 링크플러스 지능형 소프트웨어 성과발표회 우수상 수상을 하였습니다.
 - 설계 목적 설정 : 학부내에서 팀프로젝트를 진행하여 팀원 전체의 실력 향상을 목표로 개발하였습니다.
-- 모든 서버 로그는 S3 스토리지에 자동으로 저장하도록 하였다.
+- 모든 서버 로그는 S3 스토리지에 자동으로 저장하도록 하였습니다.
 - ERD CLOUD 를 이용하여 데이터베이스를 한눈에 보기 편하게 설계를 하여 팀원들의 데이터베이스 이해도를 향상토록 하며 데이터베이스의 수정하기 전 ERD 클라우드에 미리 적용을 하여 백엔드를 구성하는 팀원의 혼선을 최소화 하도록 노력하였습니다.
 
 CNN 알고리즘을 이용한 동물 사진 분류 프로젝트
@@ -47,10 +58,11 @@ CNN 알고리즘을 이용한 동물 사진 분류 프로젝트
 
     Technology stack : AWS SageMaker / AWS S3 Bucket / AWS CloudWatch / CNN / TensorFlow
 
- - CNN 알고리즘을 통하여 S3 버켓에 들어있는 특정 동물 사진의 동물 사진을 AI를 통하여 분류하는 API를 개발한다.
+ - CNN 알고리즘을 통하여 S3 버켓에 들어있는 특정 동물 사진의 동물 사진을 AI를 통하여 분류하는 API를 개발하였습니다.
 
 Data Seience Project 데이터 사이언스 학습
 ------------------------------------------------------------------------------------------
+
     Technology stack : Web crawling / Pandas / Numpy / Unsupervised learning / Clustering / Decision Tree / Random Forest / Beautifulsoup / Selenium
 
 - 네이버 뉴스 웹 크롤링
@@ -75,7 +87,7 @@ Embedded Software DI-6200V Project 대화기기 임베디드 소프트웨어 DI-
 - (주)대화기기 기업 부설연구소내에서 연구원들과 프로젝트를 진행하였습니다.
 - ARM Cortex-M4 기반의 C언어 기반의 임베디드 펌웨어.
 - 운영체제가 없는 144mhz 싱글코어 CPU와 2048kb의 메모리와 16MB 플래시메모리의 시스템에서의 개발을 진행하였습니다.
-- 폰트에 쓰이는 용량까지 줄이기 위해 영문의 대소문자 52글자와 숫자, 특수문자를 전부 픽셀단위로 배열에 저장하여 해당하는 포인터값을 출력하기 위해서 아스키 코드를 이용하여 해당하는 폰트를 출력하는 코드를 완성함.
+- 폰트에 쓰이는 용량까지 줄이기 위해 영문의 대소문자 52글자와 숫자, 특수문자를 전부 픽셀단위로 배열에 저장하여 해당하는 포인터를 출력하기 위해서 아스키 코드를 이용하여 해당하는 폰트를 출력하는 코드를 완성하였습니다.
 - 프리랜서 계약 종료 이후 제가 작성해둔 폰트 코드를 이용하여 다수의 언어로 포팅되어 판매 중입니다.
   
 > 뉴스 링크 : http://kr.aving.net/news/view.php?articleId=1498832&Branch_ID=kr&rssid=naver&mn_name=news
@@ -83,9 +95,11 @@ Embedded Software DI-6200V Project 대화기기 임베디드 소프트웨어 DI-
 > 제품 링크 : http://www.daiwha.com/bbs/board.php?bo_table=sub1_8&wr_id=14
 
 
-GF Consultant Freelance Projects 지에프컨설턴트 사회보장정보원 유지보수 프로젝트
------------------------------------------------------------------------------------------- 
+GFC Korea Projects 지에프컨설턴트 사회보장정보원 유지보수 프로젝트
+------------------------------------------------------------------------------------------
+
     Technology stack : JAVA / MSSQL / Spring
+
 - 작성 중.
 
 메가존클라우드 구글 클라우드 아키텍쳐 전문가 양성 프로그램
@@ -96,6 +110,4 @@ GF Consultant Freelance Projects 지에프컨설턴트 사회보장정보원 유
 
 Checker
 ------------------------------------------------------------------------------------------ 
-
-
 <img src="https://jwsgithub.s3.us-east-2.amazonaws.com/REST+API.png">
