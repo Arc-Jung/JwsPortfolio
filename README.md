@@ -24,6 +24,16 @@ Django Framework Project 장고 프레임워크 프로젝트
         AWS RDS Oracle Enterprise Edition / AWS EC2 t2.micro Scale up 4EA / 
         AWS EC2 t3.micro Scale up 4EA / AWS S3 Bucket / AWS CloudWatch / 
         AWS Cloud9 IDE
+
+메가존클라우드 구글 클라우드 아키텍쳐 전문가 양성 프로그램 수료
+------------------------------------------------------------------------------------------ 
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Coursera%20WLPU29X5GVZ9-1.jpg">
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Coursera%20Z597JKTR6NZT-1.png">
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Coursera%20CBBNDT6MPECE-1.png">
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Coursera%20LK5BNGHLT4CG-1.png">
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Coursera%20323W9EHVQ7NH-1.jpg">
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Coursera%20PNJWXCNGLZRR-1.jpg">
+
         
 목차
 -------------------------------------------------------------------------------------------
@@ -102,12 +112,5 @@ GFC Korea Projects 지에프컨설턴트 사회보장정보원 유지보수 프�
 
 - 작성 중.
 
-메가존클라우드 구글 클라우드 아키텍쳐 전문가 양성 프로그램
------------------------------------------------------------------------------------------- 
-<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Coursera%20Z597JKTR6NZT-1.png">
-<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Coursera%20CBBNDT6MPECE-1.png">
-<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Coursera%20LK5BNGHLT4CG-1.png">
-
-Checker
 ------------------------------------------------------------------------------------------ 
 <img src="https://jwsgithub.s3.us-east-2.amazonaws.com/REST+API.png">
