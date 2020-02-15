@@ -121,7 +121,7 @@ class ImageUpload(generics.ListCreateAPIView): # 이미지를 업로드 하는 �
     
 ####################################################################
 
-class ProductType(generics.ListAPIView): # 상품의 종류르 입력, 조회하느 기능
+class ProductType(generics.ListAPIView): # 상품의 종류를 입력과 조회 기능 구현
     queryset = ProductModel.objects.all()
     serializer_class = ProductSerializer
     filter_backends = (filters.SearchFilter,)
@@ -137,7 +137,7 @@ class SearchAll(generics.ListAPIView): # 검색어를 입력하여 특정한 문
 
 ####################################################################
 
-class SaleHistory(generics.ListAPIView): # 특정한 유저의 상품 판매 내역을 모두 춣력
+class SaleHistory(generics.ListAPIView): # 특정한 유저의 상품 판매 내역을 모두 출력
     #queryset = ProductModel.objects.filter(UserId_id='')
     queryset = ProductModel.objects.all()
     serializer_class = ProductSerializer
@@ -147,7 +147,7 @@ class SaleHistory(generics.ListAPIView): # 특정한 유저의 상품 판매 내
         
 ####################################################################
 
-class Test(generics.ListAPIView): 
+class Test(generics.ListAPIView):  # 가장 기본이 되는 디폴트 클래스
     serializer_class = ProductSerializer
     def get_queryset(self, *args, **kwargs): 
         qs = ProductModel.objects.all() 

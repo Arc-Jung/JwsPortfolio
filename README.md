@@ -25,7 +25,7 @@ Django Framework Project 장고 프레임워크 프로젝트
         AWS EC2 t3.micro Scale up 4EA / AWS S3 Bucket / AWS CloudWatch / 
         AWS Cloud9 IDE
 
-메가존클라우드 구글 클라우드 아키텍쳐 전문가 양성 프로그램 수료
+메가존 클라우드 구글 클라우드 아키텍쳐 전문가 양성 프로그램 수료
 ------------------------------------------------------------------------------------------ 
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Coursera%20WLPU29X5GVZ9-1.jpg">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Coursera%20Z597JKTR6NZT-1.png">
