@@ -14,7 +14,7 @@ Django Framework Project 장고 프레임워크 프로젝트
 
 > 데이터베이스 설계도 링크 : https://www.erdcloud.com/d/e35oC4NbBWmdfeCJn
 
-- Technology stack
+- Tech stack
 
         Kotlin / Django / Python / JSON / Ubuntu Server
         

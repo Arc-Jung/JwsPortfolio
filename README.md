@@ -15,7 +15,7 @@ Django Framework Project 장고 프레임워크 프로젝트
 
 > 데이터베이스 설계도 링크 : https://www.erdcloud.com/d/e35oC4NbBWmdfeCJn
 
-- Technology stack
+- Tech stack
 
         Kotlin / Django / Python / JSON / Ubuntu Server
 
@@ -54,7 +54,7 @@ Travel Web Project 여행 정보 웹 프로젝트
 
 > 데이터베이스 설계도 링크 : https://www.erdcloud.com/d/WHzXSXHaNTFHu7rbc
 
-    Technology stack : Java / Spring Framework / Ubuntu Server
+    Tech stack : Java / Spring Framework / Ubuntu Server
 
 - AWS : AWS EC2 t2.micro / AWS RDS Oracle Enterprise Edition / AWS S3 Bucket
 - 제 3회 백석대학교 산학협력단 링크플러스 지능형 소프트웨어 성과발표회 우수상 수상을 하였습니다.
@@ -66,14 +66,22 @@ CNN 알고리즘을 이용한 동물 사진 분류 프로젝트
 ------------------------------------------------------------------------------------------
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/CNN%20Model%20Project/CNN%20Model%20Project%20%EC%84%A4%EA%B3%84%20%ED%8C%8C%EC%9D%BC.png">
 
-    Technology stack : AWS SageMaker / AWS S3 Bucket / AWS CloudWatch / CNN / TensorFlow
+    Tech stack : AWS SageMaker / AWS S3 Bucket / AWS CloudWatch / CNN / Chrome
 
  - CNN 알고리즘을 통하여 S3 버켓에 들어있는 특정 동물 사진의 동물 사진을 AI를 통하여 분류하는 API를 개발하였습니다.
+
+Auto Tiketing Project 티켓팅 자동화 프로젝트
+------------------------------------------------------------------------------------------
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/CNN%20Model%20Project/CNN%20Model%20Project%20%EC%84%A4%EA%B3%84%20%ED%8C%8C%EC%9D%BC.png">
+
+    Tech stack : GCP AI Platform / Python / Selenium / beautifulsoup / TensorFlow
+
+ - 친구와 평소에 보러가고 싶었던 콘서트 티켓을 구하기 위해 전 과정을 파이썬을 활요하여 자동화 하여 티켓팅을 할 수 있는 자동화 툴을 만들었습니다. 보안 문제로 인하여 비공개 프로젝트로 Github에 
 
 Data Seience Project 데이터 사이언스 학습
 ------------------------------------------------------------------------------------------
 
-    Technology stack : Web crawling / Pandas / Numpy / Unsupervised learning / Clustering / Decision Tree / Random Forest / Beautifulsoup / Selenium
+    Tech stack : Web crawling / Pandas / Numpy / Unsupervised learning / Clustering / Decision Tree / Random Forest / Beautifulsoup / Selenium
 
 - 네이버 뉴스 웹 크롤링
 - 크롬 웹 드라이버를 사용한 웹 크롤링
@@ -91,7 +99,7 @@ Embedded Software DI-6200V Project 대화기기 임베디드 소프트웨어 DI-
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Embedded%20Software%20DI-6200V%20Project/DI-6200V_2.png">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Embedded%20Software%20DI-6200V%20Project/DI-6200V_3.png">
 
-    C Language / Firmware / ARM
+    Tech stack : C Language / Firmware / ARM
 
 - 임베디드 기반의 의약품 주입펌프의 폰트시스템 및 UI와 터치 시스템 전반을 당담하였습니다.
 - (주)대화기기 기업 부설연구소내에서 연구원들과 프로젝트를 진행하였습니다.
@@ -108,7 +116,7 @@ Embedded Software DI-6200V Project 대화기기 임베디드 소프트웨어 DI-
 GFC Korea Projects 지에프컨설턴트 사회보장정보원 유지보수 프로젝트
 ------------------------------------------------------------------------------------------
 
-    Technology stack : JAVA / MSSQL / Spring
+    Tech stack : JAVA / MSSQL / Spring
 
 - 작성 중.
 
