@@ -25,6 +25,14 @@ Django Framework Project 장고 프레임워크 프로젝트
         AWS EC2 t3.micro Scale up 4EA / AWS S3 Bucket / AWS CloudWatch / 
         AWS Cloud9 IDE
 
+1. 프로젝트 목적 및 개요 정의 문서
+2. 데이터베이스 설계문서
+3. 언어 및 프레임워크와 버전관리 정의 문서
+4. 클라우드 서비스 정의 문서
+5. RESTful API 기능 정의 문서
+6. 개발 환경 및 의존성 정의 문서
+7. 어플리케이션 개발 프로세스 정의 및 이슈 관리 문서
+
 메가존 클라우드 구글 클라우드 아키텍쳐 전문가 양성 프로그램 수료
 ------------------------------------------------------------------------------------------ 
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Coursera%20WLPU29X5GVZ9-1.jpg">
@@ -33,17 +41,6 @@ Django Framework Project 장고 프레임워크 프로젝트
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Coursera%20LK5BNGHLT4CG-1.png">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Coursera%20323W9EHVQ7NH-1.jpg">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Coursera%20PNJWXCNGLZRR-1.jpg">
-
-        
-목차
--------------------------------------------------------------------------------------------
-1. 프로젝트 목적 및 개요 정의 문서
-2. 데이터베이스 설계문서
-3. 언어 및 프레임워크와 버전관리 정의 문서
-4. 클라우드 서비스 정의 문서
-5. RESTful API 기능 정의 문서
-6. 개발 환경 및 의존성 정의 문서
-7. 어플리케이션 개발 프로세스 정의 및 이슈 관리 문서
 
 Travel Web Project 여행 정보 웹 프로젝트
 -------------------------------------------------------------------------------------------
