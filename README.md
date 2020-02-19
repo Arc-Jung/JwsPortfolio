@@ -72,7 +72,7 @@ CNN 알고리즘을 이용한 동물 사진 분류 프로젝트
 
 Auto Tiketing Project 티켓팅 자동화 프로젝트
 ------------------------------------------------------------------------------------------
-<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/CNN%20Model%20Project/CNN%20Model%20Project%20%EC%84%A4%EA%B3%84%20%ED%8C%8C%EC%9D%BC.png">
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Auto%20Tiketing%20Project/Auto%20Tiketing.png">
 
     Tech stack : GCP AI Platform / Python / Selenium / beautifulsoup / TensorFlow
 
