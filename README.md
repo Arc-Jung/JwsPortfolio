@@ -71,9 +71,9 @@ Auto Tiketing Project 티켓팅 자동화 프로젝트
 ------------------------------------------------------------------------------------------
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Auto%20Tiketing%20Project/Auto%20Tiketing.png">
 
-    Tech stack : GCP AI Platform / Python / Selenium / beautifulsoup / TensorFlow
+    Tech stack : GCP AI Platform / Python / Selenium / beautifulsoup / TensorFlow / CNN / Web Clawling
 
- - 친구와 평소에 보러가고 싶었던 콘서트 티켓을 구하기 위해 전 과정을 파이썬을 활요하여 자동화 하여 티켓팅을 할 수 있는 자동화 툴을 만들었습니다. 보안 문제로 인하여 비공개 프로젝트로 설정하였습니다.
+ - 평소에 보러가고 싶었던 콘서트 티켓을 구하기 위해 전 과정을 파이썬을 활요하여 자동화 하여 티켓팅을 할 수 있는 자동화 툴을 만들었습니다. 2020년 2월 21일 기준으로 알파버전을 활용하여 티켓팅이 가능한 상태입니다. 3월 중 GCP AI Platform으로 마이그레이션하여 최대 10개의 인스턴스를 이용하여 다중 접속하여 대량의 티켓팅을 할 수 있도록 구현할 예정입니다.
 
 Data Seience Project 데이터 사이언스 학습
 ------------------------------------------------------------------------------------------
