@@ -9,11 +9,11 @@ Django Framework Project 장고 프레임워크 프로젝트
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/BuMarket%20Database.png">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Django%20Framework%20Project/BuMarket%20Github.png">
 
-> API 정의 페이지 : http://18.189.29.144:8000/
+> API 정의 페이지 / Link to RESTful API page : http://18.189.29.144:8000/
 
-> 상품페이지 API : http://18.189.29.144:8000/bumarket/product/
+> 상품페이지 API / Link to introduce product on RESTful API : http://18.189.29.144:8000/bumarket/product/
 
-> 데이터베이스 설계도 링크 : https://www.erdcloud.com/d/e35oC4NbBWmdfeCJn
+> 데이터베이스 설계 링크 / Link to Database Modeling : https://www.erdcloud.com/d/e35oC4NbBWmdfeCJn
 
 - Tech stack
 
@@ -25,15 +25,15 @@ Django Framework Project 장고 프레임워크 프로젝트
         AWS EC2 t3.micro Scale up 4EA / AWS S3 Bucket / AWS CloudWatch / 
         AWS Cloud9 IDE
 
-1. [프로젝트 소개 페이지](https://github.com/dsg890789/JwsPortfolio/blob/master/Django%20Framework%20Project/README.md)
-2. [데이터베이스 설계](https://github.com/dsg890789/JwsPortfolio/blob/master/Django%20Framework%20Project/2.%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%84%A4%EA%B3%84%20%EB%AC%B8%EC%84%9C.md)
-3. [언어 및 프레임워크와 버전관리 정의 문서](https://github.com/dsg890789/JwsPortfolio/blob/master/Django%20Framework%20Project/3.%EC%96%B8%EC%96%B4%20%EB%B0%8F%20%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC%EC%99%80%20%EB%B2%84%EC%A0%84%EA%B4%80%EB%A6%AC%20%EC%A0%95%EC%9D%98%20%EB%AC%B8%EC%84%9C.md)
-4. [클라우드 서비스 정의 문서](https://github.com/dsg890789/JwsPortfolio/blob/master/Django%20Framework%20Project/4.%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%A0%95%EC%9D%98%20%EB%AC%B8%EC%84%9C.md)
-5. [RESTful API 기능 정의 문서](https://github.com/dsg890789/JwsPortfolio/blob/master/Django%20Framework%20Project/5-1.Restful%20API%20%EA%B8%B0%EB%8A%A5%20%EC%A0%95%EC%9D%98%20%EB%AC%B8%EC%84%9C.md)
-6. [개발 환경 및 의존성 정의 문서](https://github.com/dsg890789/JwsPortfolio/blob/master/Django%20Framework%20Project/7.%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%20%EA%B0%9C%EB%B0%9C%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%20%EC%A0%95%EC%9D%98%20%EB%B0%8F%20%EC%9D%B4%EC%8A%88%20%EA%B4%80%EB%A6%AC%20%EB%AC%B8%EC%84%9C.md)
-7. [어플리케이션 개발 프로세스 정의 및 이슈 관리 문서](https://github.com/dsg890789/JwsPortfolio/blob/master/Django%20Framework%20Project/README.md)
+1. [프로젝트 소개 페이지 / Intro page of Project ](https://github.com/dsg890789/JwsPortfolio/blob/master/Django%20Framework%20Project/README.md)
+2. [데이터베이스 설계 / Datebase Modeling](https://github.com/dsg890789/JwsPortfolio/blob/master/Django%20Framework%20Project/2.%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%84%A4%EA%B3%84%20%EB%AC%B8%EC%84%9C.md)
+3. [언어 및 프레임워크와 버전관리 정의 문서 / I recomend Language & Framework](https://github.com/dsg890789/JwsPortfolio/blob/master/Django%20Framework%20Project/3.%EC%96%B8%EC%96%B4%20%EB%B0%8F%20%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC%EC%99%80%20%EB%B2%84%EC%A0%84%EA%B4%80%EB%A6%AC%20%EC%A0%95%EC%9D%98%20%EB%AC%B8%EC%84%9C.md)
+4. [클라우드 서비스 정의 문서 / Steps to Cloud Service](https://github.com/dsg890789/JwsPortfolio/blob/master/Django%20Framework%20Project/4.%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%A0%95%EC%9D%98%20%EB%AC%B8%EC%84%9C.md)
+5. [RESTful API 기능 정의 문서 / What is RESTful API?](https://github.com/dsg890789/JwsPortfolio/blob/master/Django%20Framework%20Project/5-1.Restful%20API%20%EA%B8%B0%EB%8A%A5%20%EC%A0%95%EC%9D%98%20%EB%AC%B8%EC%84%9C.md)
+6. [개발 환경 및 의존성 정의 문서 / Configure Dev Tasks & Require dependencies ](https://github.com/dsg890789/JwsPortfolio/blob/master/Django%20Framework%20Project/7.%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%20%EA%B0%9C%EB%B0%9C%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%20%EC%A0%95%EC%9D%98%20%EB%B0%8F%20%EC%9D%B4%EC%8A%88%20%EA%B4%80%EB%A6%AC%20%EB%AC%B8%EC%84%9C.md)
+7. [어플리케이션 개발 프로세스 정의 및 이슈 관리 문서 / Steps to develop process & Check error log ](https://github.com/dsg890789/JwsPortfolio/blob/master/Django%20Framework%20Project/README.md)
 
-메가존 클라우드 구글 클라우드 아키텍쳐 전문가 양성 프로그램 수료
+메가존 클라우드 구글 클라우드 아키텍쳐 전문가 양성 프로그램 수료 / Google Cloud Architecture Professional course completed with Powered by Google Korea & Megazone Cloud
 ------------------------------------------------------------------------------------------ 
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Coursera%20WLPU29X5GVZ9-1.jpg">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Coursera%20Z597JKTR6NZT-1.png">
@@ -42,14 +42,14 @@ Django Framework Project 장고 프레임워크 프로젝트
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Coursera%20323W9EHVQ7NH-1.jpg">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Coursera%20PNJWXCNGLZRR-1.jpg">
 
-Travel Web Project 여행 정보 웹 프로젝트
+여행 정보 웹 프로젝트 / Travel Web Project 
 -------------------------------------------------------------------------------------------
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Travel%20Web%20Project/Travel%20index%20small.png">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Travel%20Web%20Project/Travel%20DB.png">
 
-> 접속 링크 : http://18.221.37.6:8080/TravelProject/project/index.do
+> 접속 링크 / Link to Spring Framework based Travel Website : http://18.221.37.6:8080/TravelProject/project/index.do
 
-> 데이터베이스 설계도 링크 : https://www.erdcloud.com/d/WHzXSXHaNTFHu7rbc
+> 데이터베이스 설계 링크 / Link to Database Modeling : https://www.erdcloud.com/d/WHzXSXHaNTFHu7rbc
 
     Tech stack : Java / Spring Framework / Ubuntu Server
 
@@ -59,13 +59,13 @@ Travel Web Project 여행 정보 웹 프로젝트
 - 모든 서버 로그는 S3 스토리지에 자동으로 저장하도록 하였습니다.
 - ERD CLOUD 를 이용하여 데이터베이스를 한눈에 보기 편하게 설계를 하여 팀원들의 데이터베이스 이해도를 향상토록 하며 데이터베이스의 수정하기 전 ERD 클라우드에 미리 적용을 하여 백엔드를 구성하는 팀원의 혼선을 최소화 하도록 노력하였습니다.
 
-CNN 알고리즘을 이용한 동물 사진 분류 프로젝트
+CNN 알고리즘을 이용한 동물 사진 분류 프로젝트 / Animal Photo Classification Project Using Amazon Tensorflow Convolutional Neural Network
 ------------------------------------------------------------------------------------------
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/CNN%20Model%20Project/CNN%20Model%20Project%20%EC%84%A4%EA%B3%84%20%ED%8C%8C%EC%9D%BC.png">
 
     Tech stack : AWS SageMaker / AWS S3 Bucket / AWS CloudWatch / CNN / Chrome
 
- - CNN 알고리즘을 통하여 S3 버켓에 들어있는 특정 동물 사진의 동물 사진을 AI를 통하여 분류하는 API를 개발하였습니다.
+ - CNN 알고리즘을 통하여 S3 버켓에 들어있는 특정 동물 사진의 동물 사진을 AI를 통하여 분류하는 API를 개발하였습니다. / I developed API to classify animal photos using Amazon SageMaker Tensorflow Convolutional Neural Network
 
 Auto Tiketing Project 티켓팅 자동화 프로젝트
 ------------------------------------------------------------------------------------------
