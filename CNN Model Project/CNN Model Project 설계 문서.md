@@ -1,4 +1,4 @@
-CNN 알고리즘을 이용한 동물 사진 분류 프로젝트
+Animal Photo Classification Project Using Convolutional Neural Network at Amazon SageMaker Tensorflow
 ===========================================================================================
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/CNN%20Model%20Project/Tensorflow.png">
 
@@ -6,14 +6,13 @@ CNN 알고리즘을 이용한 동물 사진 분류 프로젝트
     
 > Technology stack : AWS SageMaker / AWS S3 Bucket / AWS CloudWatch / CNN / TensorFlow
 
-프로젝트 개요
+Project intro
 -------------------------------------------------------------------------------------------
-- CNN 알고리즘을 통하여 S3 버켓에 들어있는 특정 동물 사진의 동물 사진을 AI를 통하여 분류하는 API를 개발한다.
-- Amazon Web Service SageMaker를 통하여 모델을 구축한다.
-- 사용 인스턴스는 ml.m5.xlarge 이며 4vCPU 16GB 의 성능을 가진 강력한 인스턴스.
-- 이미지 데이터세은 동물 10여종의 5만여장의 사진 중 5000여장을 사용.
+- Use the CNN algorithm, We develop an API that classifies the animal photos with AWS SageMaker.
+- Use instance AWS ml.m5.xlarge at have Strong Power of 4vCPU 16GB.
+- Use 5000 Image files in AWS S3 Bucket.
 
-CNN 알고리즘
+What is Convolutional Neural Network(CNN)?
 -------------------------------------------------------------------------------------------
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/CNN%20Model%20Project/CNN%20Model%20Project%20view.png">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/CNN%20Model%20Project/CNN%20Model%20Project%20view-2.png">
@@ -22,7 +21,7 @@ CNN 알고리즘
 - CNN(Convolutional Neural Network) image 전체를 보는 것이 아니라 부분을 보는 것이 핵심 아이디어이다. 부분에 해당하는 것을 filter 이고 이러한 filter를 여러번 적용 시켜 하나의 레이어 형태로 만들게 되는데 이것을 convolution layer 라고 한다. 예를 들어 6개의 filter로부터 6개의 convolution layer를 얻었다고 해보자. 현재 우리의 예에서는 N=7, F=3 이기 때문에 5x5짜리 convolution layer를 6개 얻게 되었다. 이를 하나로 합치면 5x5x6짜리 convolution layers를 얻게 되고 이렇게 activation maps까지 얻는 일련의 과정을 convolution이라고 한다. 이런 convolution을 수십 수백번 반복하여 일정하여 모델을 만들어 활용 하는 것을 CNN 알고리즘이라고 한다.
 - 이번 프로젝트는 Tensorflow CNN 모델을 통하여 구성이 되었으며 연산 시간은 4vCPU 16GB의 ml.m5.xlarge 머신러닝 인스턴스를 통하여 학습 하였으며 1 에포크당 약 40분이 소요됩니다. 먼저 5 에포크의 연산을 하여 문제가 없음을 확인하였고 50 에포크를 진행 중이다.
 
-이미지 데이터셋
+Set image data
 -------------------------------------------------------------------------------------------
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/CNN%20Model%20Project/AWS%20SageMaker%20S3.png">
 
@@ -30,12 +29,12 @@ CNN 알고리즘
   
 > https://www.kaggle.com/alessiocorrado99/animals10
 
-프로젝트 아키텍처
+Project architect
 -------------------------------------------------------------------------------------------
+
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/CNN%20Model%20Project/CNN%20Model%20Project%20%EC%84%A4%EA%B3%84%20%ED%8C%8C%EC%9D%BC.png">
 
-1. 액티비티 정의
--------------------------------------------------------------------------------------------
+1. 
 - Users : 이 AI 모델을 작동시키는 유저이다.
 - AWS Console : AWS를 관리하는 종합 관리 콘솔이다.
 - AWS Cloud Watch : AWS의 각 서비스 및 인스턴스의 사용량과 요금을 실시간으로 확인하는 서비스.
