@@ -1,5 +1,9 @@
 # Portfolio Document
-##### ***Made by JWS***
+### ***Google Cloud Platform Certified Professional Cloud Architect - JWS***
+
+구글 클라우드 플랫폼 프로페셔널 클라우드 아키텍트 / Google Cloud Platform Certified Professional Cloud Architect
+------------------------------------------------------------------------------------------ 
+- 2020-03-09 Certified
 
 장고 프레임워크 프로젝트 / Django Framework Project
 ------------------------------------------------------------------------------------------
@@ -33,7 +37,7 @@
 6. [개발 환경 및 의존성 정의 문서 / Configure Dev Tasks & Require dependencies ](https://github.com/dsg890789/JwsPortfolio/blob/master/Django%20Framework%20Project/7.%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%20%EA%B0%9C%EB%B0%9C%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%20%EC%A0%95%EC%9D%98%20%EB%B0%8F%20%EC%9D%B4%EC%8A%88%20%EA%B4%80%EB%A6%AC%20%EB%AC%B8%EC%84%9C.md)
 7. [어플리케이션 개발 프로세스 정의 및 이슈 관리 문서 / Steps to develop process & Check error log ](https://github.com/dsg890789/JwsPortfolio/blob/master/Django%20Framework%20Project/README.md)
 
-메가존 클라우드 구글 클라우드 아키텍쳐 전문가 양성 프로그램 수료 / Google Cloud Architecture Professional course completed with Powered by Google Korea & Megazone Cloud
+메가존 클라우드 구글 클라우드 아키텍트 전문가 양성 프로그램 수료 / Google Cloud Architect Professional course completed with Powered by Google Korea & Megazone Cloud
 ------------------------------------------------------------------------------------------ 
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Coursera%20WLPU29X5GVZ9-1.jpg">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Coursera%20Z597JKTR6NZT-1.png">
