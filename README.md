@@ -3,7 +3,10 @@
 
 구글 클라우드 플랫폼 프로페셔널 클라우드 아키텍트 / Google Cloud Platform Certified Professional Cloud Architect
 ------------------------------------------------------------------------------------------ 
+<img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Google%20Cloud%20Platform%20Certified%20Professional%20Cloud%20Architect.png">
 - 2020-03-09 Certified
+
+
 
 장고 프레임워크 프로젝트 / Django Framework Project
 ------------------------------------------------------------------------------------------
