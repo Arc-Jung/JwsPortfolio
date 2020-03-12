@@ -116,15 +116,7 @@ Embedded Software DI-6200V Project 대화기기 임베디드 소프트웨어 DI-
 
 > 제품 링크 : http://www.daiwha.com/bbs/board.php?bo_table=sub1_8&wr_id=14
 
-
-GFC Korea Projects 지에프컨설턴트 사회보장정보원 유지보수 프로젝트
-------------------------------------------------------------------------------------------
-
-    Tech stack : JAVA / MSSQL / Spring
-
-- 대학교 학비마련을 위해 사회보장정보원에서 유지보수를 사업을 맡아 진행하였습니다. 운영팀과 소통하며 많은 것을 배울 수 있던 시간이었습니다.
-
-- 작성 중.
-
 ------------------------------------------------------------------------------------------ 
+
 <img src="https://jwsgithub.s3.us-east-2.amazonaws.com/REST+API.png">
+<img src="https://jwsgithub.s3.us-east-2.amazonaws.com/Google+Cloud+Platform+Certified+Professional+Cloud+Architect+Badge.png">
