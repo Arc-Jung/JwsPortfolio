@@ -4,7 +4,8 @@
 구글 클라우드 플랫폼 프로페셔널 클라우드 아키텍트 / Google Cloud Platform Certified Professional Cloud Architect
 ------------------------------------------------------------------------------------------ 
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Google%20Cloud%20Platform%20Certified%20Professional%20Cloud%20Architect.png">
-- 2020-03-09 Certified
+
+- Passed the 87th certificated in Korea. [  Professional Cloud Architect  ](https://googlecloudcertified.credential.net/profile/e10a74c697ff6411361819a6154a674536feb426)
 
 
 
