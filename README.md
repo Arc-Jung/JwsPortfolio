@@ -5,7 +5,7 @@
 ------------------------------------------------------------------------------------------ 
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Google%20Cloud%20Platform%20Certified%20Professional%20Cloud%20Architect.png">
 
-- Passed the 87th certificated in Korea. [  Professional Cloud Architect  ](https://googlecloudcertified.credential.net/profile/e10a74c697ff6411361819a6154a674536feb426)
+- Passed the 87th certificated in Korea. [  Professional Cloud Architect Issued on Mar 11, 2020 ](https://googlecloudcertified.credential.net/profile/e10a74c697ff6411361819a6154a674536feb426)
 
 
 
@@ -76,7 +76,7 @@ CNN 알고리즘을 이용한 동물 사진 분류 프로젝트 / Animal Photo C
 
  - CNN 알고리즘을 통하여 S3 버켓에 들어있는 특정 동물 사진의 동물 사진을 AI를 통하여 분류하는 API를 개발하였습니다. / I developed API to classify animal photos using Convolutional Neural Network at Amazon SageMaker Tensorflow
 
-Auto Tiketing Project 티켓팅 자동화 프로젝트
+Auto Tiketing Project / 티켓팅 자동화 프로젝트
 ------------------------------------------------------------------------------------------
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Auto%20Tiketing%20Project/Auto%20Tiketing.png">
 
@@ -84,7 +84,7 @@ Auto Tiketing Project 티켓팅 자동화 프로젝트
 
  - 평소에 보러가고 싶었던 콘서트 티켓을 구하기 위해 전 과정을 파이썬을 활요하여 자동화 하여 티켓팅을 할 수 있는 자동화 툴을 만들었습니다. 2020년 2월 21일 기준으로 알파버전을 활용하여 티켓팅이 가능한 상태입니다. 3월 중 GCP AI Platform으로 마이그레이션하여 최대 10개의 인스턴스를 이용하여 다중 접속하여 대량의 티켓팅을 할 수 있도록 구현할 예정입니다.
 
-Data Seience Project 데이터 사이언스 학습
+Data Seience Project / 데이터 사이언스 학습
 ------------------------------------------------------------------------------------------
 
     Tech stack : Web crawling / Pandas / Numpy / Unsupervised learning / Clustering / Decision Tree / Random Forest / Beautifulsoup / Selenium
@@ -97,7 +97,7 @@ Data Seience Project 데이터 사이언스 학습
 - 의료데이터 분석을 통한 심장 질환 유발률 비지도학습(unsupervised learning)과 군집(clustering)
 
 
-Embedded Software DI-6200V Project 대화기기 임베디드 소프트웨어 DI-6200V 프로젝트
+Embedded Software DI-6200V Project / 대화기기 임베디드 소프트웨어 DI-6200V 프로젝트
 ------------------------------------------------------------------------------------------
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Embedded%20Software%20DI-6200V%20Project/DI-6200V%20News.png">
 <img src="https://raw.githubusercontent.com/dsg890789/JwsPortfolio/master/Embedded%20Software%20DI-6200V%20Project/DI-6200V_0.jpg">
@@ -107,12 +107,12 @@ Embedded Software DI-6200V Project 대화기기 임베디드 소프트웨어 DI-
 
     Tech stack : C Language / Firmware / ARM
 
-- 임베디드 기반의 의약품 주입펌프의 폰트시스템 및 UI와 터치 시스템 전반을 당담하였습니다.
+- 임베디드 기반의 의약품 주입펌프의 폰트시스템 및 UI와 터치 시스템 전반을 구성하였습니다.
 - (주)대화기기 기업 부설연구소내에서 연구원들과 프로젝트를 진행하였습니다.
 - ARM Cortex-M4 기반의 C언어 기반의 임베디드 펌웨어.
 - 운영체제가 없는 144mhz 싱글코어 CPU와 2048kb의 메모리와 16MB 플래시메모리의 시스템에서의 개발을 진행하였습니다.
 - 폰트에 쓰이는 용량까지 줄이기 위해 영문의 대소문자 52글자와 숫자, 특수문자를 전부 픽셀단위로 배열에 저장하여 해당하는 포인터를 출력하기 위해서 아스키 코드를 이용하여 해당하는 폰트를 출력하는 코드를 완성하였습니다.
-- 제가 작성해둔 폰트 코드를 이용하여 다수의 언어로 포팅되어 판매 중입니다.
+- 제가 작성해둔 폰트 코드를 이용하여 다수의 언어로 이식되어 판매 중입니다.
   
 > 뉴스 링크 : http://kr.aving.net/news/view.php?articleId=1498832&Branch_ID=kr&rssid=naver&mn_name=news
 
