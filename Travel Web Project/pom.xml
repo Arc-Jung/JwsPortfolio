@@ -43,7 +43,7 @@
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis</artifactId>
-			<version>3.4.4</version>
+			<version>3.5.6</version>
 		</dependency>
 		
 		<!-- Ajax를 이용한 JSON통신을 위한 Jackson설치 -->
